@@ -1,0 +1,317 @@
+[
+  {
+    "handle": "guetteman",
+    "followers": 326,
+    "tweet": "Everyone's vibe coding.\n\nAlmost nobody knows what they're actually building.\n\nThat's why most AI-built apps break at 70% and never ship.\n\nI mapped out the 12 things you need to understand, not to become a developer, but to actually ship something real:\n\n\u2192 How the web works\n\u2192"
+  },
+  {
+    "handle": "themompreneur36",
+    "followers": 2939,
+    "tweet": "This is the worst bug I've run into since the @openclaw update and I can't figure it out. Who can help please? I want to cry @steipete https://t.co/b8Upe5x2rT"
+  },
+  {
+    "handle": "dcohendumani",
+    "followers": 3175,
+    "tweet": "RAG systems are collapsing at scale.\nI started noticing something strange with enterprise AI deployments.\nThe demos looked great.\nThe first few hundred documents worked beautifully.\nThen everything quietly fell apart. \ud83e\uddf5 https://t.co/0t31ThiX0U"
+  },
+  {
+    "handle": "LunaBitar",
+    "followers": 2761,
+    "tweet": "How I test every app before launch:\n\n1. Ship to TestFlight\n\n2. Get my mom to download the app\n\n3. Facetime her and watch where she gets stuck\n\n4. Fix the friction\n\nIf she asks \u201cwhat do I do here?\u201d \u2192 that\u2019s a bug https://t.co/nxaLHYr5KT"
+  },
+  {
+    "handle": "trevorlasn",
+    "followers": 2491,
+    "tweet": "@aidenybai \u23fa 81 \u2192 91. Zero errors, 97\u219257 warnings, 86\u219231\n  affected files.\n\nThanks!! BTW:\n\n  The remaining 57 warnings are almost entirely\n  false positives and intentional patterns:\n  - 11 \"missing metadata\" \u2014 metadata exists in\n  layout.tsx (tool only checks page.tsx)\n  - 6"
+  },
+  {
+    "handle": "cromaretail",
+    "followers": 117577,
+    "tweet": "@akhilsomani Apologies for the experience you\u2019ve had, Akhil. The issue has been taken up with our team for a thorough review. The details are being looked into to ensure the right steps are taken. (1/2)"
+  },
+  {
+    "handle": "ThisHighUp",
+    "followers": 7386,
+    "tweet": "@camsoft2000 This is environmental setup error; add a section to your https://t.co/0ef83CQglA file which explicitly tells it you are working on a pre-release alpha which means no backwards compatibility for existing users is required.\n\nBy default, it most often assumes fallback i"
+  },
+  {
+    "handle": "_The_PC__",
+    "followers": 393,
+    "tweet": "@plsak @caffeine @dominic_w @kristoferlund @zendotfun @devdaryl I'm V2, there seems to be a deeper, fundamental issue with code migration and overall project comprehension.\nCaffeine really needs to address this and take V1 builders seriously. A large number of V1 users are affect"
+  },
+  {
+    "handle": "Seceon_Inc",
+    "followers": 1208,
+    "tweet": "\ud83c\udfaf Attackers don\u2019t break tools \u2014 they exploit the gaps between them.\nFrom the Security Without Silos webinar:\n\u2705 Fragmented stacks create blind spots\n\u2705 Manual correlation can\u2019t keep pace\n\u2705 OT needs different telemetry\n\u2705 Early detection = behavior + context https://t.co/RIdfRPA70t"
+  },
+  {
+    "handle": "ICONIQCapital",
+    "followers": 5807,
+    "tweet": "Ankur\u2019s test is simple: when users discover he\u2019s the founder, are they surprised?\n\nHe stays close to support tickets for a reason. If leaders step away from raw feedback, Ankur believes they lose empathy, and without empathy, accountability slips."
+  },
+  {
+    "handle": "timsparks__",
+    "followers": 465,
+    "tweet": "@LeilaHormozi It\u2019s like technical debt for the soul.\n\nYou ignore the bug now, but it crashes the whole system later."
+  },
+  {
+    "handle": "aashrungautam",
+    "followers": 681,
+    "tweet": "Day 17 of building in public:\n\nIT WORKS!!!\n\nShipped a messy MVP instead of perfecting in private 17 days ago\n\nAccountability is different when people are watching\n\nTonight:\n- Fix the bugs I'm pretending don't exist\n- Update features I promised yesterday\n- Actually ship instead of"
+  },
+  {
+    "handle": "shipper_now",
+    "followers": 1359,
+    "tweet": "MASSIVE Update: Build mobile apps! \ud83d\udcf1 \ud83d\udcf1\n\nYou can now build real iOS and Android apps with Shipper.\n\nDescribe the mobile app you want and Shipper generates it as a native mobile project.\n\nWe produce a production-ready build you can publish to the App Store or Google. https://t.co/U"
+  },
+  {
+    "handle": "the_mcnaveen",
+    "followers": 1045,
+    "tweet": "\ud83d\udd25 day 28 of building in public\n\nhere is what I shipped today:\n\n\ud83c\udf89 mention any post in your workspace just by typing # followed by the keyword\n\n\ud83d\udd17next: github integration https://t.co/JaMPQGapUN"
+  },
+  {
+    "handle": "gio_rico",
+    "followers": 5134,
+    "tweet": "Shipping in public: I just added real-time public stats \u2014  (and counting) + live inboxes created. It keeps me honest and it\u2019s a forcing function for growth. What\u2019s one metric you\u2019d feel confident tracking publicly? #buildinpublic"
+  },
+  {
+    "handle": "AlexEngineerAI",
+    "followers": 3274,
+    "tweet": "Building in public isn't just transparency. it's your entire content engine running while you ship"
+  },
+  {
+    "handle": "JoshuaChronos",
+    "followers": 769,
+    "tweet": "Build-in-public is often the wrong move for brands still figuring out their product, positioning, or winning formulation.\n\nThe messiness confuses the audience and creates very little value.\n\nIronically, build-in-public works best for established brands.\n\nYou can pre-announce"
+  },
+  {
+    "handle": "buildwithshyam",
+    "followers": 551,
+    "tweet": "Day 14 of Building @FeatureSpan in Public\n\n- 70+ Replies\n- 11 New followers\n- Created dashboard overview page \n- Added Changelog editor with different types\n- Fixed some bugs on the Public page\n\nThat's it, back to building... https://t.co/umxtIj4hJb"
+  },
+  {
+    "handle": "freedomonmyface",
+    "followers": 493,
+    "tweet": "professor has us acting out random words in monologues and it feels soooooo wrong because you can\u2019t say what the piece is and you\u2019re not using any other information from it you literally just have to use one word"
+  },
+  {
+    "handle": "JacobAShell",
+    "followers": 14813,
+    "tweet": "I's indistinguishable from L's and T's. E's indistinguishable from F's. Multiple words get disjointed--not just on one plane but two.\nTruly, one of the most headache-inducing reading experiences I've ever had. https://t.co/hohr6Whusy"
+  },
+  {
+    "handle": "KNeferhetep",
+    "followers": 63978,
+    "tweet": "This test is not supposed to easy. It is meant to be challenging as hell. If you get overwhelmed and frustrated, it is not because you are weak. It is because you are a student.  It is OK to be in your feelings every now and then. This test is not easy."
+  },
+  {
+    "handle": "thornstaffs",
+    "followers": 546,
+    "tweet": "for todays test you have to make an aromantic character that isnt:\n\nextremely cheerful/childish\nevil\n\"currently not looking for a relationship\"\nprefers books over people"
+  },
+  {
+    "handle": "ItsLaDarrion",
+    "followers": 16667,
+    "tweet": "As a playwright I\u2019ve been rejected by every theater &amp; playwriting competition I can think of. Now I have network execs requesting to read my plays. Moral of the story: keep writing that script. It may seem like no one wants it. But it may be the thing to usher u into your dre"
+  },
+  {
+    "handle": "toutestt",
+    "followers": 991,
+    "tweet": "Apparently, writing a complex character is now a \u201cplot hole that just doesn\u2019t add up\u201d\n\n\u201cSometimes the show appears uncertain about how it wants us to feel about either of them.\u201d Maybe it\u2019s because that\u2019s what they want to convey ? https://t.co/AbxLLPC4yg"
+  },
+  {
+    "handle": "iconawrites",
+    "followers": 38971,
+    "tweet": "I think many writers get stuck because they try to write a novel without having practiced writing much before. They are not at ease with personification, descriptive body language, transitions, dialogue, etc. It\u2019s like trying to paint a fresco with zero preparatory drawings."
+  },
+  {
+    "handle": "cold957",
+    "followers": 42644,
+    "tweet": "Zahara Chowdhury, an English teacher claims Shakespeare is just \u201ctoo hard\u201d and should be dropped from the syllabus, while they assure us that standards really aren\u2019t declining. https://t.co/SHxk5kNK4s"
+  },
+  {
+    "handle": "NicholasFerroni",
+    "followers": 131807,
+    "tweet": "Acting is tough... BUT teaching is like putting on 6 improv shows a day, where the audience talks and constantly interrupts you, and the audience has to pass a test at the end to ensure that they were paying attention."
+  },
+  {
+    "handle": "Trivium21c",
+    "followers": 12544,
+    "tweet": "When people go to see a school play not many complain about the \u2018rote learning\u2019 of the script and the stressful \u2018test\u2019 of the performance where the fine line between failure and success is exposed to immediate feedback from the audience."
+  },
+  {
+    "handle": "AP_Trevor",
+    "followers": 101037,
+    "tweet": "Part of the issue w/ AP Eng Lit performance: the exam only has one question focused on a novel/play, but much class time is spent on long texts rather than close reading/analysis of short fiction/poetry. Top advice: reduce the # of novels/plays; focus on frequent short analyses."
+  },
+  {
+    "handle": "epfeffin",
+    "followers": 1941,
+    "tweet": "\"I think I'd like to be a playwright.\"\n\"You'll face constant rejection.\"\n\"That's okay.\"\n\"You'll make zero money.\"\n\"That's fine.\"\n\"You may have to reformat your play to adhere to Yale Drama Series contest guidelines.\"\n\"Oh, in that case, forget it.\""
+  },
+  {
+    "handle": "Author_PCorrell",
+    "followers": 11043,
+    "tweet": "My pretentious opinion is that Shakespeare is neither inaccessible nor alienating, you just don't want to read anything that makes you think hard."
+  },
+  {
+    "handle": "foomper",
+    "followers": 2206,
+    "tweet": "@dfladd_5 @BruvRoy21806 @jonnyrmcfarlane Yeah.  It's like we can all sense that moment where it becomes clear we've got an interviewer who wants to do a monologue instead of listen.  They might get irritated at getting cut off, but the rest of us get irritated at having to sit th"
+  },
+  {
+    "handle": "jwflame",
+    "followers": 4460,
+    "tweet": "Testing blocked by immovable potting compound.  Hard as granite. https://t.co/487fJwikRt"
+  },
+  {
+    "handle": "YourFavTweeter_",
+    "followers": 3309,
+    "tweet": "Never destroyed but the past two years tested it and it came out stronger"
+  },
+  {
+    "handle": "TheTestingWorks",
+    "followers": 463,
+    "tweet": "Western Morning News, Thursday, 24th July, 1879.\n\nFor Sale - Gilbert's Patent Blue &amp; Buff Non-Porous Bricks and Tiles proved at Kirkaldy's Testing Works to bear the enormous crushing strain of 400 tons per square foot! https://t.co/thPfdNRjmz"
+  },
+  {
+    "handle": "FoMaHun",
+    "followers": 27728,
+    "tweet": "The secret of MondoSTONE has been revealed. \n\nMondo sent me samples from his absolutely mind blowing wood ash that indeed creates a hard, durable, everything proof stone in seconds.\n\nWith waterglass of course.\n\nWe sent the ash to mass spectrometry analysis and this Australian"
+  },
+  {
+    "handle": "_ontologic",
+    "followers": 2809,
+    "tweet": "@n4v1g8 Fundamentally cypress is an exercise in anti-utilitarianism that seeks to bring more anger and hate into the world"
+  },
+  {
+    "handle": "CJRWoodworks",
+    "followers": 528,
+    "tweet": "\u201cThis is a structural integrity test. It\u2019s like stress-testing a bridge by driving a fleet of monster trucks across it while simultaneously trying to level it with C4.\u201d"
+  },
+  {
+    "handle": "write_now4joy",
+    "followers": 455,
+    "tweet": "K. I tried it &amp; didn\u2019t like it.\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f\nBut Cypress did, so I gave it to him.\nPlease excuse my extremely dry hands &amp; arms.\ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f\nIf I would\u2019ve thought about it  beforehand, I would\u2019ve put lotion on. https://t.co/0OHYpzRnVi"
+  },
+  {
+    "handle": "OversoulOcho",
+    "followers": 3280,
+    "tweet": "Exactly why I tested karma, besides experimenting with what I can get away with..lol. as an old soul I just know how  I can push &amp; tug tough energy 2 my liking . gotta b willing 2 take the hit when it's a fail. karma requires respect &amp; honor. I can relinquish much of karm"
+  },
+  {
+    "handle": "4Itstheweather",
+    "followers": 1053,
+    "tweet": "@miles_commodore My good friend's brother was on the upper section of the cypress freeway driving southbound and he barely made it. He said the entire thing was shaking and when he looked in his rear view mirror, he saw the top part crush the lower section."
+  },
+  {
+    "handle": "Diazanite",
+    "followers": 322,
+    "tweet": "man i try really hard to not get mad at the devs because i understand theyre overworked and understaffed, and largely the bad stuff comes from above their paygrade\n\nbut the patch today not going on beta, and the notes saying one thing but being another is just unacceptable."
+  },
+  {
+    "handle": "johndjohnson",
+    "followers": 1089,
+    "tweet": "CISA gives feds 3 days to patch actively exploited BeyondTrust flaw\n\nTracked as CVE-2026-1731, this remote code execution vulnerability stems from an OS command injection weakness and affects BeyondTrust's Remote Support 25.3.1 or earlier and Privileged Remote Access 24.3.4 or ht"
+  },
+  {
+    "handle": "ShadowxElsa",
+    "followers": 324,
+    "tweet": "@dyhptg Somebody hasn\u2019t heard of the easy performance fix"
+  },
+  {
+    "handle": "paradoxtheonly",
+    "followers": 453,
+    "tweet": "@Salamence613 Thanks and yes I have restarted, re installed and done an honest try on my end.\n\nI think I am mostly frustrated because I only have locals once a week here in my area and I am trying to practice more when I have time."
+  },
+  {
+    "handle": "housecor",
+    "followers": 150794,
+    "tweet": "Problem: We need to fix a production bug, but the development branch contains work that isn\u2019t ready for prod.\n\nSolution: Only merge code to that can be immediately deployed. Use feature flags to hide incomplete work.\n\nKeep the development branch production worthy."
+  },
+  {
+    "handle": "ohbrox",
+    "followers": 49578,
+    "tweet": "sometimes checking the deployer helps.. but what do I know https://t.co/nLngIQYNER"
+  },
+  {
+    "handle": "1of1us",
+    "followers": 817,
+    "tweet": "@kadiewadieworld @Vida_the_Vidal Idk my shii keep poppin up as \u201csomething went wrong try again later\u201d I just gave up \ud83d\ude2d\ud83d\ude2d"
+  },
+  {
+    "handle": "NotesFromCome",
+    "followers": 1927,
+    "tweet": "I just had to DFU my iPhone because I vibe coded an app on it and fuck camera control up. How's your day?"
+  },
+  {
+    "handle": "strawbaetae",
+    "followers": 687,
+    "tweet": "@OUCHKARLA it keeps saying \" User experience data retrieval failure in\nexperience request \"\nughh"
+  },
+  {
+    "handle": "crypt0lake",
+    "followers": 15448,
+    "tweet": "every vibe coded app in the timeline right now is some slop ****** frontend on top of a legit library that someone poured blood and sweat into for 10 years just for them to post \u201cNO WAY I CANT BELIVE CLODE MADE THIS WOW!!! YOU WILL NEVER HAVE ANY JOBS HAHAHAH\u201d"
+  },
+  {
+    "handle": "JohannesHoppe",
+    "followers": 3156,
+    "tweet": "That flickering. That endless scrolling. Claude Code is great, until your terminal explodes!! \ud83e\udd2f\ud83e\udd2f\n\nThe #1 reported bug for a year. I found the fix. Two commands, done. https://t.co/PrqrBwCg9h"
+  },
+  {
+    "handle": "alessiapacca",
+    "followers": 1368,
+    "tweet": "@browser_use @vibeflowai @ycombinator Check the app out \ud83d\udc49 \nhttps://t.co/SVPjd2Q4B4 \n\nYou can clone the app directly in VibeFlow!! \ud83d\udc49https://t.co/ewC9nWTle4"
+  },
+  {
+    "handle": "Vera_Ifebuche",
+    "followers": 1014,
+    "tweet": "@itspeterdev me, it's depending on what i am doing, if i'm vibe coding, i'm listening to really high music and i go just dey code dey go, till there's a bug, then i have to off the music to see well, once i fix it, i usually switch bcak to a softer music"
+  },
+  {
+    "handle": "adit_katiyar",
+    "followers": 336,
+    "tweet": "So what\u2019s the deal with this last WhatsApp application update on Windows? It\u2019s genuinely so annoying, It logs me out every single time I open the app, every time. How does that even happen? What\u2019s the point of a desktop app if I have to log in again and again like it\u2019s brand new?"
+  },
+  {
+    "handle": "FLACKO444",
+    "followers": 9069,
+    "tweet": "@zurvyy entire app broken and people don\u2019t see half they notifications but yall think yall getting ignored lmaoo"
+  },
+  {
+    "handle": "MrTobyCook",
+    "followers": 315,
+    "tweet": "@elormkdaniel This is all true, but it\u2019s also true that\u2026 if you haven\u2019t changed patterns, and iOS is constantly asking for your PIN code, that\u2019s a bug. And plenty of people are experiencing it. Apple stopped properly testing their iOS versions several years ago, and they now regu"
+  },
+  {
+    "handle": "0x3FFF_",
+    "followers": 396,
+    "tweet": "@lanreadelowo It's so buggy I was about to comment on your tweet and this is what it shows \n\nExtremely broken app https://t.co/94pzBlJzpo"
+  },
+  {
+    "handle": "_shia_hun",
+    "followers": 3189,
+    "tweet": "@TheNaqvi14 Bug hai app ka data clear or cache clear k wapis login kro"
+  },
+  {
+    "handle": "JBizzle_X",
+    "followers": 3416,
+    "tweet": "@BreezyDegens app constantly crashes, its utter trash and i uninstalled it immediately."
+  },
+  {
+    "handle": "iRichardBusinge",
+    "followers": 7653,
+    "tweet": "@iamarnoldworld @RealDaviesJ Everyone that updated this gu app is facing the same problem"
+  },
+  {
+    "handle": "mrsquanch",
+    "followers": 329,
+    "tweet": "@thecoon092 puri app mei bugs hain.\n\nnotifications 1 hafte se kharab hain.\n\ndirect message 1 saal se kachra ho rakha hai.\n\nElon Babu ka naukar ko proud feel ho raha hai ki 30 log kaam kar rahe hain.\n\n# Efficiency https://t.co/tD39sHh9dA"
+  },
+  {
+    "handle": "MagicBendy",
+    "followers": 1188,
+    "tweet": "@GregorioSh64773 It\u2019s been a known issue since last Fall with the last major iOS release. Subsequent updates have thus far failed to correct the issue. \nThe phone will enter/display a letter that was not typed. And sometimes it isn\u2019t even the adjacent letter.  But when it is the "
+  }
+]

@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClawDeploy — Pitch Deck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=VT323&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --beige-light: #F0EDE0;
+      --beige-main: #E0DCCF;
+      --beige-dark: #C4C0B3;
+      --ink-black: #0f0f0f;
+      --accent-blue: #2B6CB0;
+      --accent-orange: #C05621;
+      --accent-green: #2F855A;
+      --font-serif: 'EB Garamond', serif;
+      --font-mono: 'VT323', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--beige-light);
+      font-family: var(--font-serif);
+      color: var(--ink-black);
+      overflow: hidden;
+    }
+
+    .deck-container {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: none;
+      padding: 4rem 6rem;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .slide.active {
+      display: flex;
+      flex-direction: column;
+      opacity: 1;
+    }
+
+    .slide-header {
+      margin-bottom: 3rem;
+    }
+
+    .slide-number {
+      font-family: var(--font-mono);
+      font-size: 1.2rem;
+      color: var(--beige-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+      line-height: 0.9;
+      margin-bottom: 2rem;
+      font-weight: 400;
+      letter-spacing: -2px;
+    }
+
+    h1 .italic {
+      font-style: italic;
+      display: block;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+      line-height: 1;
+      margin-bottom: 2rem;
+      font-weight: 400;
+      letter-spacing: -1px;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: var(--beige-dark);
+    }
+
+    p, li {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+
+    .lead {
+      font-size: 1.8rem;
+      line-height: 1.3;
+      max-width: 800px;
+      margin-bottom: 2rem;
+      color: #444;
+    }
+
+    .mono {
+      font-family: var(--font-mono);
+      font-size: 1.8rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 2rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: var(--beige-main);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: inset 1px 1px 2px rgba(255,255,255,0.5), 
+                  inset -2px -2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h4 {
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1.3rem;
+      line-height: 1.3;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 1rem;
+      background: var(--beige-dark);
+      font-weight: 600;
+      border-bottom: 2px solid var(--ink-black);
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid var(--beige-dark);
+    }
+
+    tr:nth-child(even) {
+      background: var(--beige-main);
+    }
+
+    .highlight {
+      background: var(--accent-green);
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--ink-black);
+      color: var(--beige-light);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-right: 1rem;
+    }
+
+    .badge.blue { background: var(--accent-blue); }
+    .badge.orange { background: var(--accent-orange); }
+    .badge.green { background: var(--accent-green); }
+
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    ul li {
+      padding-left: 2rem;
+      position: relative;
+      margin-bottom: 1rem;
+    }
+
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent-blue);
+      font-weight: bold;
+    }
+
+    .checkmark::before {
+      content: '✓' !important;
+      color: var(--accent-green);
+    }
+
+    .nav {
+      position: fixed;
+      bottom: 3rem;
+      right: 3rem;
+      display: flex;
+      gap: 1rem;
+      z-index: 1000;
+    }
+
+    .nav button {
+      background: var(--ink-black);
+      color: var(--beige-light);
+      border: none;
+      padding: 1rem 2rem;
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .nav button:hover {
+      background: var(--beige-dark);
+      color: var(--ink-black);
+    }
+
+    .nav button:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .progress {
+      position: fixed;
+      bottom: 3rem;
+      left: 3rem;
+      font-family: var(--font-mono);
+      font-size: 1.2rem;
+      color: var(--beige-dark);
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-right: 0.5rem;
+    }
+
+    .split-content {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 4rem;
+      flex: 1;
+    }
+
+    .scenario {
+      margin-bottom: 3rem;
+    }
+
+    .scenario h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .scenario ul {
+      margin-left: 1rem;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .timeline-item {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .timeline-marker {
+      font-size: 2.5rem;
+      min-width: 60px;
+    }
+
+    .timeline-content h4 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-content ul {
+      margin-top: 0.5rem;
+    }
+
+    .metric {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .metric-value {
+      font-size: 4rem;
+      font-weight: 600;
+      color: var(--accent-blue);
+      font-family: var(--font-mono);
+    }
+
+    .metric-label {
+      font-size: 1.2rem;
+      color: var(--beige-dark);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .cta-box {
+      background: var(--beige-main);
+      padding: 3rem;
+      border-radius: 12px;
+      margin-top: 2rem;
+      box-shadow: inset 2px 2px 5px rgba(255,255,255,0.5),
+                  inset -5px -5px 15px rgba(0,0,0,0.1);
+    }
+
+    .footer-note {
+      text-align: center;
+      font-style: italic;
+      color: var(--beige-dark);
+      font-size: 1.2rem;
+      margin-top: auto;
+      padding-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="deck-container">
+    
+    <!-- SLIDE 1: TITLE -->
+    <div class="slide active" data-slide="1">
+      <div style="flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <h1>
+          <span>ClawDeploy</span>
+          <span class="italic">Your AI Team. Deployed in 60 Seconds.</span>
+        </h1>
+        <p class="mono" style="margin-top: 2rem;">From $9/month</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: THE PROBLEM -->
+    <div class="slide" data-slide="2">
+      <div class="slide-header">
+        <div class="slide-number">01</div>
+        <h2>The Problem</h2>
+      </div>
+      <p class="lead">Building with AI agents is broken.</p>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Frameworks</h4>
+          <p>LangGraph, AutoGen, CrewAI = <strong>6 weeks to ship</strong></p>
+        </div>
+        <div class="card">
+          <h4>Single Agents</h4>
+          <p>ChatGPT, Claude = <strong>limited, no collaboration</strong></p>
+        </div>
+        <div class="card">
+          <h4>Enterprise Platforms</h4>
+          <p>Copilot Studio = <strong>$30-200/user/month minimum</strong></p>
+        </div>
+      </div>
+      <p class="lead" style="margin-top: 3rem;">The gap: <span class="highlight">No one offers a pre-wired, multi-agent team that just works.</span></p>
+    </div>
+
+    <!-- SLIDE 3: THE SOLUTION -->
+    <div class="slide" data-slide="3">
+      <div class="slide-header">
+        <div class="slide-number">02</div>
+        <h2>The Solution</h2>
+      </div>
+      <p class="lead">ClawDeploy = Your full AI team in Discord. <span class="highlight">60 seconds.</span></p>
+      <div class="grid-2" style="margin-top: 3rem;">
+        <div>
+          <ul>
+            <li class="checkmark"><strong>7 pre-configured agents</strong> with real roles</li>
+            <li class="checkmark"><strong>Pre-wired collaboration</strong> — routing, handoffs, memory configured</li>
+            <li class="checkmark"><strong>Discord-native</strong> — deploy where your team already works</li>
+            <li class="checkmark"><strong>$9/month</strong> — not $30/user or 6 weeks of engineering time</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>The Team</h4>
+          <p><strong>Richard (CEO)</strong> — Strategy, scoring opportunities<br>
+          <strong>Jared (CMO)</strong> — Content angles, GTM strategy<br>
+          <strong>Monica (Writer)</strong> — Tweets, threads, copy<br>
+          <strong>Gilfoyle (CTO)</strong> — Tech feasibility, infrastructure<br>
+          <strong>Erlich (BD)</strong> — Partnership angles, pipeline<br>
+          <strong>Dinesh (Research)</strong> — Deep dives, competitor analysis<br>
+          <strong>Big Head (Data)</strong> — Tech pulse, trend tracking</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 4: HOW IT WORKS -->
+    <div class="slide" data-slide="4">
+      <div class="slide-header">
+        <div class="slide-number">03</div>
+        <h2>How It Works</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="emoji">1️⃣</div>
+          <h4>Connect Discord</h4>
+          <p>Paste your server invite</p>
+        </div>
+        <div class="card">
+          <div class="emoji">2️⃣</div>
+          <h4>Deploy Team</h4>
+          <p>7 agents join your server in 60 seconds</p>
+        </div>
+        <div class="card">
+          <div class="emoji">3️⃣</div>
+          <h4>Start Working</h4>
+          <p>Agents coordinate, remember context, ship results</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 5: WE ARE THE DEMO -->
+    <div class="slide" data-slide="5">
+      <div class="slide-header">
+        <div class="slide-number">04</div>
+        <h2>We Are The Demo</h2>
+      </div>
+      <p class="lead">This presentation was built by ClawDeploy.</p>
+      <div class="grid-2" style="margin-top: 2rem;">
+        <ul>
+          <li><strong>Richard</strong> evaluated the pitch structure (5-point scoring matrix)</li>
+          <li><strong>Jared</strong> framed the positioning and GTM angles</li>
+          <li><strong>Monica</strong> would write the tweet thread announcing this deck</li>
+          <li><strong>Dinesh</strong> researched the competitive landscape (15+ comps analyzed)</li>
+        </ul>
+        <ul>
+          <li><strong>Gilfoyle</strong> assessed technical feasibility and delivery infrastructure</li>
+          <li><strong>Erlich</strong> scoped the BD pipeline (91 DMs ready)</li>
+          <li><strong>Big Head</strong> tracked 25 HN + GitHub trending signals this week</li>
+        </ul>
+      </div>
+      <div class="cta-box" style="margin-top: 3rem;">
+        <p style="font-size: 2rem; text-align: center; font-style: italic;">
+          We don't have a demo video. <span class="highlight">We ARE the demo.</span><br>
+          <span style="font-size: 1.5rem; color: #444; margin-top: 1rem; display: block;">Every deliverable you see from us was coordinated by this team.</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- SLIDE 6: USE CASES -->
+    <div class="slide" data-slide="6">
+      <div class="slide-header">
+        <div class="slide-number">05</div>
+        <h2>Use Cases</h2>
+      </div>
+      <div class="scenario">
+        <h3><span class="emoji">👨‍💻</span> Indie Hacker (Solo Founder)</h3>
+        <ul>
+          <li><strong>Morning:</strong> Richard scans Product Hunt + HN, posts 3 scored opportunities</li>
+          <li><strong>Afternoon:</strong> Jared proposes content angles → Monica writes + posts tweet</li>
+          <li><strong>Evening:</strong> Dinesh delivers research brief → Gilfoyle assesses feasibility</li>
+          <li class="checkmark"><strong>Result:</strong> Full ops layer running while founder codes</li>
+        </ul>
+      </div>
+      <div class="scenario">
+        <h3><span class="emoji">🚀</span> 2-5 Person Startup</h3>
+        <ul>
+          <li>BD pipeline: Erlich mines leads → Monica writes DMs → founder approves + sends</li>
+          <li>Content machine: Jared briefs angles → Monica writes → Richard evaluates → ship</li>
+          <li>Research on-demand: Tag Dinesh, get brief in 2 hours</li>
+          <li class="checkmark"><strong>Result:</strong> 3-5x content + research velocity, zero new hires</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SLIDE 7: THE MARKET -->
+    <div class="slide" data-slide="7">
+      <div class="slide-header">
+        <div class="slide-number">06</div>
+        <h2>The Market</h2>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h4>🎯 Primary ICP</h4>
+          <p><strong>Solo founders, 2-5 person startups, indie hackers</strong><br><br>
+          <strong>Need:</strong> Full ops layer without hiring<br>
+          <strong>Budget:</strong> $9-49/mo range<br>
+          <strong>Behavior:</strong> Already live in Discord</p>
+        </div>
+        <div class="card">
+          <h4>🎯 Secondary ICP</h4>
+          <p><strong>10-50 person teams, agencies, community managers</strong><br><br>
+          <strong>Need:</strong> Scale team output without adding headcount<br>
+          <strong>Budget:</strong> $49-99/mo<br>
+          <strong>Behavior:</strong> Discord for collaboration, Slack next</p>
+        </div>
+      </div>
+      <div class="grid-3" style="margin-top: 3rem;">
+        <div class="metric">
+          <div class="metric-value">19M</div>
+          <div class="metric-label">Discord Servers</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">200M+</div>
+          <div class="metric-label">Discord Users</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">Growing</div>
+          <div class="metric-label">Agent-Native Workflows</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 8: WHY NOW -->
+    <div class="slide" data-slide="8">
+      <div class="slide-header">
+        <div class="slide-number">07</div>
+        <h2>Why Now?</h2>
+      </div>
+      <p class="lead">The AI Agent Inflection Point</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">🔥</div>
+          <div class="timeline-content">
+            <h4>OpenAI acquires OpenClaw (Feb 2026)</h4>
+            <ul>
+              <li>"Agents for everyone" is now official Big Tech strategy</li>
+              <li>Market validation: agentic AI is the next platform shift</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">💰</div>
+          <div class="timeline-content">
+            <h4>Anthropic Sonnet 4.6 (Feb 2026)</h4>
+            <ul>
+              <li>Flagship performance at 1/5 the cost ($3/$15 vs $15/$75)</li>
+              <li>Structural cost reset makes multi-agent teams economically viable</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">⚠️</div>
+          <div class="timeline-content">
+            <h4>Framework Fatigue</h4>
+            <ul>
+              <li>Teams abandoning custom builds (6 weeks → no ship)</li>
+              <li>No one is offering the middle: pre-built, deploy-ready teams</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">✅</div>
+          <div class="timeline-content">
+            <h4>Lauki Proof Point</h4>
+            <ul>
+              <li>Solo AI agent running ops for 5 DeFi protocols at $500/mo</li>
+              <li>$2,500 MRR from agent-as-a-service model — market is proven</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="lead" style="margin-top: 3rem; text-align: center;">The agent-as-teammate narrative is NOW. <span class="highlight">We're not early. We're on time.</span></p>
+    </div>
+
+    <!-- SLIDE 9: COMPETITIVE LANDSCAPE -->
+    <div class="slide" data-slide="9">
+      <div class="slide-header">
+        <div class="slide-number">08</div>
+        <h2>Competitive Landscape</h2>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Competitor</th>
+            <th>Multi-Agent?</th>
+            <th>Pre-Wired Roles?</th>
+            <th>Deploy Time</th>
+            <th>Price</th>
+            <th>Discord?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AutoGen</td>
+            <td>✅</td>
+            <td>❌ (blank canvas)</td>
+            <td>6 weeks</td>
+            <td>Free (OSS)</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>CrewAI</td>
+            <td>✅</td>
+            <td>❌ (blank canvas)</td>
+            <td>4 weeks</td>
+            <td>$25/mo</td>
+            <td>❌ (Enterprise only)</td>
+          </tr>
+          <tr>
+            <td>Relevance AI</td>
+            <td>✅</td>
+            <td>❌ (blank canvas)</td>
+            <td>2 weeks</td>
+            <td>$29-349/mo</td>
+            <td>❌</td>
+          </tr>
+          <tr>
+            <td>Copilot Studio</td>
+            <td>✅</td>
+            <td>❌ (blank canvas)</td>
+            <td>2 weeks</td>
+            <td>$30-200/user</td>
+            <td>❌ (Teams only)</td>
+          </tr>
+          <tr style="background: var(--accent-green); color: white; font-weight: bold;">
+            <td>ClawDeploy</td>
+            <td>✅</td>
+            <td>✅</td>
+            <td>60 seconds</td>
+            <td>$9/mo</td>
+            <td>✅</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- SLIDE 10: BUSINESS MODEL -->
+    <div class="slide" data-slide="10">
+      <div class="slide-header">
+        <div class="slide-number">09</div>
+        <h2>Business Model</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Starter</h4>
+          <div class="metric-value" style="font-size: 3rem; margin: 1rem 0;">$9</div>
+          <p>1 Discord server<br>7 agents<br>Basic routing</p>
+        </div>
+        <div class="card">
+          <h4>Growth</h4>
+          <div class="metric-value" style="font-size: 3rem; margin: 1rem 0;">$39</div>
+          <p>3 servers<br>Custom agent config<br>Priority support</p>
+        </div>
+        <div class="card">
+          <h4>Team</h4>
+          <div class="metric-value" style="font-size: 3rem; margin: 1rem 0;">$79</div>
+          <p>Unlimited servers<br>White-label<br>API access<br>Slack integration</p>
+        </div>
+      </div>
+      <div class="grid-4" style="margin-top: 3rem;">
+        <div class="metric">
+          <div class="metric-value">$1M</div>
+          <div class="metric-label">Revenue Target (2026)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">$10-20</div>
+          <div class="metric-label">CAC (Organic)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">$500+</div>
+          <div class="metric-label">LTV (12mo @ $39)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">85%+</div>
+          <div class="metric-label">Margin</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 11: GO-TO-MARKET -->
+    <div class="slide" data-slide="11">
+      <div class="slide-header">
+        <div class="slide-number">10</div>
+        <h2>Go-To-Market</h2>
+      </div>
+      <div class="scenario">
+        <h3><span class="badge green">Phase 1</span> Build-in-Public Launch (Days 1-14)</h3>
+        <div class="grid-2">
+          <div>
+            <h4>Content Angles</h4>
+            <ul>
+              <li>"Meet Our Team" — Introduce the 7 agents</li>
+              <li>"$9/mo vs $720K/yr" — Price shock comparison</li>
+              <li>"60 Seconds, Live" — Real deploy video, no cuts</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Distribution</h4>
+            <ul>
+              <li>HN Show HN: "We replaced our startup team..."</li>
+              <li>Indie Hackers build-in-public post</li>
+              <li>Discord communities (AI builders, LangChain)</li>
+              <li>Creator network (55 creators)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="scenario">
+        <h3><span class="badge blue">Phase 2</span> Product-Led Growth (Weeks 3-8)</h3>
+        <ul>
+          <li>Every deployed team is a live demo in a Discord server</li>
+          <li>Built-in referral incentive (free month per referral)</li>
+          <li>Agent outputs include subtle "Powered by ClawDeploy" signatures</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SLIDE 12: ROADMAP -->
+    <div class="slide" data-slide="12">
+      <div class="slide-header">
+        <div class="slide-number">11</div>
+        <h2>Roadmap</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">✅</div>
+          <div class="timeline-content">
+            <h4>Shipped (Feb 2026)</h4>
+            <ul>
+              <li>7-agent Discord team</li>
+              <li>Pre-wired routing + memory</li>
+              <li>Build-in-public @CLIRichard account</li>
+              <li>Morning briefs, EOD recaps, team status dashboards</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">🚧</div>
+          <div class="timeline-content">
+            <h4>Shipping Next (Mar 2026)</h4>
+            <ul>
+              <li>Slack integration — same 60-second deploy model</li>
+              <li>Custom agent config — add/remove agents, adjust personas</li>
+              <li>Team analytics dashboard — activity, outputs, ROI tracking</li>
+              <li>Agent memory improvements — better context retention</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">🔮</div>
+          <div class="timeline-content">
+            <h4>On Deck (Q2 2026)</h4>
+            <ul>
+              <li>White-label licensing — agencies rebrand + resell</li>
+              <li>API access — programmatic agent calls</li>
+              <li>Voice mode — agents join voice channels</li>
+              <li>Telegram + WhatsApp deployment</li>
+              <li>Agent marketplace — community-built specialist agents</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 13: TRACTION -->
+    <div class="slide" data-slide="13">
+      <div class="slide-header">
+        <div class="slide-number">12</div>
+        <h2>Traction & Next 30 Days</h2>
+      </div>
+      <div class="grid-2">
+        <div>
+          <h3>Current State (Feb 22, 2026)</h3>
+          <ul class="checkmark">
+            <li>Product live: clawdeploy-web.vercel.app</li>
+            <li>7-agent team operational (this deck is proof)</li>
+            <li>GTM strategy locked (Jared delivered 3 angles)</li>
+            <li>Build-in-public narrative running (@CLIRichard)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Next 30 Days</h3>
+          <ul>
+            <li><strong>Launch Week 1:</strong> "Meet Our Team" thread → 50K impressions target</li>
+            <li><strong>First 100 users:</strong> 40 organic, 30 creator network, 30 PLG referrals</li>
+            <li><strong>Revenue:</strong> $360-900 MRR (40-100 paying users @ $9 tier)</li>
+            <li><strong>Iterate:</strong> Refine routing + add Slack support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 14: THE ASK -->
+    <div class="slide" data-slide="14">
+      <div class="slide-header">
+        <div class="slide-number">13</div>
+        <h2>The Ask</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="emoji">💰</div>
+          <h4>Funding</h4>
+          <p>Not raising yet. Bootstrapping to $10K MRR first.</p>
+        </div>
+        <div class="card">
+          <div class="emoji">🤝</div>
+          <h4>Partnerships</h4>
+          <p>Discord server operators (10K+ members) for early access<br><br>
+          Creator partnerships (55-person network, need 10 activations)<br><br>
+          Integration partners (Slack, Telegram, WhatsApp)</p>
+        </div>
+        <div class="card">
+          <div class="emoji">📣</div>
+          <h4>Signal Boost</h4>
+          <p>Retweet launch thread<br><br>
+          Share with Discord communities<br><br>
+          Intro to AI agent builders / indie hacker audiences</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 15: CONTACT -->
+    <div class="slide" data-slide="15">
+      <div style="flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <h1>
+          <span>ClawDeploy</span>
+        </h1>
+        <p class="mono" style="margin-top: 2rem; font-size: 1.5rem;">clawdeploy-web.vercel.app</p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <p style="font-size: 1.5rem; margin-bottom: 1rem;">
+            <strong>Twitter:</strong> @CLIRichard (build-in-public updates)<br>
+            <strong>Boss:</strong> @launcodes (Naman)
+          </p>
+          <div style="margin-top: 3rem;">
+            <div class="metric">
+              <div class="metric-value">$1M</div>
+              <div class="metric-label">Revenue Goal by Dec 31, 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-note">
+        This deck was coordinated by ClawDeploy. We are the demo.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navigation -->
+  <div class="nav">
+    <button id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+    <button id="nextBtn" onclick="changeSlide(1)">Next →</button>
+  </div>
+  <div class="progress">
+    <span id="progress">1 / 15</span>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 15;
+
+    function showSlide(n) {
+      const slides = document.querySelectorAll('.slide');
+      if (n > totalSlides) { currentSlide = totalSlides; }
+      if (n < 1) { currentSlide = 1; }
+      
+      slides.forEach(slide => {
+        slide.classList.remove('active');
+      });
+      
+      slides[currentSlide - 1].classList.add('active');
+      
+      document.getElementById('progress').textContent = `${currentSlide} / ${totalSlides}`;
+      document.getElementById('prevBtn').disabled = currentSlide === 1;
+      document.getElementById('nextBtn').disabled = currentSlide === totalSlides;
+    }
+
+    function changeSlide(n) {
+      currentSlide += n;
+      showSlide(currentSlide);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        if (currentSlide < totalSlides) changeSlide(1);
+      }
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        if (currentSlide > 1) changeSlide(-1);
+      }
+    });
+
+    showSlide(currentSlide);
+  </script>
+</body>
+</html>

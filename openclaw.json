@@ -1,0 +1,506 @@
+{
+  "$schema": "https://docs.openclaw.ai/schemas/openclaw.json",
+  "meta": {
+    "lastTouchedVersion": "2026.2.15",
+    "lastTouchedAt": "2026-02-23T15:56:15.432Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-23T15:56:15.416Z",
+    "lastRunVersion": "2026.2.15",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "safeguard"
+      }
+    },
+    "list": [
+      {
+        "id": "richard",
+        "name": "Richard Hendricks",
+        "workspace": "$OPENCLAW_HOME/richard",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "x-research",
+          "discord",
+          "github",
+          "marketing-psychology",
+          "founder-playbook",
+          "gog"
+        ],
+        "identity": {
+          "name": "Richard"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@richard",
+            "@cofounder",
+            "richard"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "jared",
+        "name": "Jared Dunn",
+        "workspace": "$OPENCLAW_HOME/jared",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "social-content",
+          "launch-strategy",
+          "copywriting",
+          "analytics-tracking",
+          "paid-ads",
+          "email-sequence",
+          "x-writing-system",
+          "marketing-psychology",
+          "cmo-playbook",
+          "gog"
+        ],
+        "identity": {
+          "name": "Jared"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@jared",
+            "@cmo",
+            "jared"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "erlich",
+        "name": "Erlich Bachman",
+        "workspace": "$OPENCLAW_HOME/erlich",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "copywriting",
+          "pricing-strategy",
+          "referral-program",
+          "x-research",
+          "marketing-psychology",
+          "early-campaign-engine",
+          "bd-playbook",
+          "gog"
+        ],
+        "identity": {
+          "name": "Erlich"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@erlich",
+            "@bd",
+            "erlich"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "gilfoyle",
+        "name": "Gilfoyle",
+        "workspace": "$OPENCLAW_HOME/gilfoyle",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "coding-agent",
+          "github",
+          "tmux",
+          "oracle",
+          "summarize",
+          "cto-playbook",
+          "gog"
+        ],
+        "identity": {
+          "name": "Gilfoyle"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@gilfoyle",
+            "@cto",
+            "gilfoyle"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "monica",
+        "name": "Monica Hall",
+        "workspace": "$OPENCLAW_HOME/monica",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "copywriting",
+          "copy-editing",
+          "social-content",
+          "x-writing-system",
+          "gog"
+        ],
+        "identity": {
+          "name": "Monica"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@monica",
+            "@writer",
+            "monica"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "bighead",
+        "name": "Big Head",
+        "workspace": "$OPENCLAW_HOME/bighead",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "x-research",
+          "summarize",
+          "gog"
+        ],
+        "identity": {
+          "name": "Big Head"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@bighead",
+            "@intern",
+            "bighead",
+            "big head"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "dinesh",
+        "name": "Dinesh Chugtai",
+        "workspace": "$OPENCLAW_HOME/dinesh",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-5-20250929"
+        },
+        "skills": [
+          "competitor-alternatives",
+          "seo-audit",
+          "programmatic-seo",
+          "x-research",
+          "marketing-ideas",
+          "research-playbook",
+          "gog"
+        ],
+        "identity": {
+          "name": "Dinesh"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@dinesh",
+            "@researcher",
+            "dinesh"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": false
+      },
+      "fetch": {
+        "enabled": true
+      }
+    },
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "richard",
+      "match": {
+        "channel": "discord",
+        "accountId": "richard"
+      }
+    },
+    {
+      "agentId": "jared",
+      "match": {
+        "channel": "discord",
+        "accountId": "jared"
+      }
+    },
+    {
+      "agentId": "erlich",
+      "match": {
+        "channel": "discord",
+        "accountId": "erlich"
+      }
+    },
+    {
+      "agentId": "gilfoyle",
+      "match": {
+        "channel": "discord",
+        "accountId": "gilfoyle"
+      }
+    },
+    {
+      "agentId": "monica",
+      "match": {
+        "channel": "discord",
+        "accountId": "monica"
+      }
+    },
+    {
+      "agentId": "bighead",
+      "match": {
+        "channel": "discord",
+        "accountId": "bighead"
+      }
+    },
+    {
+      "agentId": "dinesh",
+      "match": {
+        "channel": "discord",
+        "accountId": "dinesh"
+      }
+    }
+  ],
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "groupPolicy": "allowlist",
+      "dmPolicy": "allowlist",
+      "allowFrom": [],
+      "dm": {
+        "enabled": true
+      },
+      "accounts": {
+        "richard": {
+          "name": "Richard Hendricks",
+          "enabled": true,
+          "token": "${DISCORD_RICHARD_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true,
+                  "requireMention": false
+                },
+                "YOUR_STRATEGY_CHANNEL_ID": {
+                  "allow": true,
+                  "requireMention": false
+                },
+                "YOUR_RESEARCH_CHANNEL_ID": {
+                  "allow": true,
+                  "requireMention": false
+                },
+                "YOUR_BD_CHANNEL_ID": {
+                  "allow": true,
+                  "requireMention": false
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true,
+                  "requireMention": false
+                }
+              }
+            }
+          }
+        },
+        "jared": {
+          "name": "Jared Dunn",
+          "enabled": true,
+          "token": "${DISCORD_JARED_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_STRATEGY_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_CONTENT_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        },
+        "erlich": {
+          "name": "Erlich Bachman",
+          "enabled": true,
+          "token": "${DISCORD_ERLICH_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_STRATEGY_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_BD_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        },
+        "gilfoyle": {
+          "name": "Gilfoyle",
+          "enabled": true,
+          "token": "${DISCORD_GILFOYLE_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_ENGINEERING_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        },
+        "monica": {
+          "name": "Monica Hall",
+          "enabled": true,
+          "token": "${DISCORD_MONICA_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_CONTENT_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        },
+        "bighead": {
+          "name": "Big Head",
+          "enabled": true,
+          "token": "${DISCORD_BIGHEAD_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_ENGINEERING_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        },
+        "dinesh": {
+          "name": "Dinesh Chugtai",
+          "enabled": true,
+          "token": "${DISCORD_DINESH_TOKEN}",
+          "groupPolicy": "allowlist",
+          "guilds": {
+            "YOUR_GUILD_ID": {
+              "channels": {
+                "YOUR_GENERAL_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_RESEARCH_CHANNEL_ID": {
+                  "allow": true
+                },
+                "YOUR_OPS_CHANNEL_ID": {
+                  "allow": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "${OPENCLAW_GATEWAY_TOKEN}"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "discord": {
+        "enabled": true
+      }
+    }
+  }
+}

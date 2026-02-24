@@ -1,0 +1,749 @@
+{
+  "daily_selections": [
+    {
+      "date": "2026-02-14",
+      "assets": [],
+      "scores": {}
+    },
+    {
+      "date": "2026-02-15",
+      "assets": [],
+      "scores": {}
+    },
+    {
+      "date": "2026-02-16",
+      "assets": [
+        "LINK",
+        "SOL",
+        "AVAX"
+      ],
+      "scores": {
+        "LINK": {
+          "score": 1.1859241718866533,
+          "atr": 0.5769543312205435,
+          "bos": 24
+        },
+        "SOL": {
+          "score": 0.9138133872354522,
+          "atr": 0.5239421673962081,
+          "bos": 20
+        },
+        "AVAX": {
+          "score": 0.8703177056165768,
+          "atr": 0.41519298785175873,
+          "bos": 29
+        }
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "assets": [
+        "LINK",
+        "ARB",
+        "SOL"
+      ],
+      "scores": {
+        "LINK": {
+          "score": 0.9709356677996144,
+          "atr": 0.51134547778843,
+          "bos": 28
+        },
+        "ARB": {
+          "score": 0.8964490732109462,
+          "atr": 0.48940651716020256,
+          "bos": 21
+        },
+        "SOL": {
+          "score": 0.851565602136588,
+          "atr": 0.4684788895315212,
+          "bos": 17
+        }
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "assets": [
+        "SOL",
+        "AVAX",
+        "ARB"
+      ],
+      "scores": {
+        "SOL": {
+          "score": 1.0146729843407034,
+          "atr": 0.391228423668481,
+          "bos": 21
+        },
+        "AVAX": {
+          "score": 1.0065631735329965,
+          "atr": 0.33604251328539453,
+          "bos": 28
+        },
+        "ARB": {
+          "score": 0.8784242865542745,
+          "atr": 0.39893617021276595,
+          "bos": 27
+        }
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "assets": [
+        "AVAX",
+        "LINK",
+        "ARB"
+      ],
+      "scores": {
+        "AVAX": {
+          "score": 0.9565856822652916,
+          "atr": 0.38697194453402023,
+          "bos": 28
+        },
+        "LINK": {
+          "score": 0.9212339232552842,
+          "atr": 0.4734219269102949,
+          "bos": 26
+        },
+        "ARB": {
+          "score": 0.8608526319567982,
+          "atr": 0.4642525533890467,
+          "bos": 21
+        }
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "assets": [
+        "ARB",
+        "LINK",
+        "SOL"
+      ],
+      "scores": {
+        "ARB": {
+          "score": 0.9592073177849009,
+          "atr": 0.5830903790087458,
+          "bos": 21
+        },
+        "LINK": {
+          "score": 0.8440522746998652,
+          "atr": 0.3746253746253755,
+          "bos": 32
+        },
+        "SOL": {
+          "score": 0.7699608343909929,
+          "atr": 0.3948051948051975,
+          "bos": 19
+        }
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "assets": [
+        "LINK",
+        "OP",
+        "ARB"
+      ],
+      "scores": {
+        "LINK": {
+          "score": 0.8194963201171712,
+          "atr": 0.4708699122106943,
+          "bos": 26
+        },
+        "OP": {
+          "score": 0.7852703228126628,
+          "atr": 0.6276383025994227,
+          "bos": 18
+        },
+        "ARB": {
+          "score": 0.7723456058584032,
+          "atr": 0.5007363770250348,
+          "bos": 26
+        }
+      }
+    }
+  ],
+  "trades": [
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-16 08:30:00",
+      "exit_time": "2026-02-16 15:30:00",
+      "direction": "LONG",
+      "entry": 8.81,
+      "exit": 8.66,
+      "pnl": -0.5453223609534631,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-16 09:00:00",
+      "exit_time": "2026-02-16 13:30:00",
+      "direction": "LONG",
+      "entry": 85.73,
+      "exit": 84.47,
+      "pnl": -0.4633860185542676,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-16 09:15:00",
+      "exit_time": "2026-02-16 13:30:00",
+      "direction": "LONG",
+      "entry": 86.06,
+      "exit": 84.47,
+      "pnl": -0.5802352450113084,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-16 11:00:00",
+      "exit_time": "2026-02-16 12:15:00",
+      "direction": "SHORT",
+      "entry": 9.22,
+      "exit": 9.35,
+      "pnl": -0.4291425354867356,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-16 12:45:00",
+      "exit_time": "2026-02-16 14:15:00",
+      "direction": "LONG",
+      "entry": 9.37,
+      "exit": 9.17,
+      "pnl": -0.635523913148665,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-16 00:00:00",
+      "exit_time": "2026-02-16 15:30:00",
+      "direction": "LONG",
+      "entry": 9.32,
+      "exit": 9.14,
+      "pnl": -0.5846702755999719,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-16 20:30:00",
+      "exit_time": "2026-02-17 15:15:00",
+      "direction": "LONG",
+      "entry": 8.83,
+      "exit": 8.68,
+      "pnl": -0.534217119956475,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-17 15:15:00",
+      "exit_time": "2026-02-17 16:30:00",
+      "direction": "SHORT",
+      "entry": 8.7,
+      "exit": 8.91,
+      "pnl": -0.6725997804317169,
+      "result": "SL"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-17 02:30:00",
+      "exit_time": "2026-02-17 05:15:00",
+      "direction": "LONG",
+      "entry": 0.1158,
+      "exit": 0.1141,
+      "pnl": -0.40158271789158395,
+      "result": "SL"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-17 08:30:00",
+      "exit_time": "2026-02-17 16:30:00",
+      "direction": "SHORT",
+      "entry": 0.1138,
+      "exit": 0.1153,
+      "pnl": -0.35566971351359083,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-16 13:45:00",
+      "exit_time": "2026-02-17 00:45:00",
+      "direction": "SHORT",
+      "entry": 84.17,
+      "exit": 86.93,
+      "pnl": -0.9867250678469913,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-16 14:00:00",
+      "exit_time": "2026-02-17 00:45:00",
+      "direction": "SHORT",
+      "entry": 84.16,
+      "exit": 86.93,
+      "pnl": -0.9903859294136744,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 02:15:00",
+      "exit_time": "2026-02-17 05:30:00",
+      "direction": "LONG",
+      "entry": 87.2,
+      "exit": 85.46,
+      "pnl": -0.48497833314578803,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 02:30:00",
+      "exit_time": "2026-02-17 05:30:00",
+      "direction": "LONG",
+      "entry": 87.31,
+      "exit": 85.51,
+      "pnl": -0.5008424888948358,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 09:00:00",
+      "exit_time": "2026-02-17 14:30:00",
+      "direction": "SHORT",
+      "entry": 85.84,
+      "exit": 83.92000000000002,
+      "pnl": 0.5062500562149125,
+      "result": "TP"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 09:15:00",
+      "exit_time": "2026-02-17 14:30:00",
+      "direction": "SHORT",
+      "entry": 85.9,
+      "exit": 84.10000000000002,
+      "pnl": 0.4738642289817924,
+      "result": "TP"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 14:30:00",
+      "exit_time": "2026-02-18 08:15:00",
+      "direction": "SHORT",
+      "entry": 83.84,
+      "exit": 86.06,
+      "pnl": -0.6411642878919652,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-17 14:45:00",
+      "exit_time": "2026-02-18 08:15:00",
+      "direction": "SHORT",
+      "entry": 83.26,
+      "exit": 86.05,
+      "pnl": -0.8095834919287547,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-18 10:30:00",
+      "exit_time": "2026-02-18 14:45:00",
+      "direction": "SHORT",
+      "entry": 84.66,
+      "exit": 81.79999999999998,
+      "pnl": 0.7514025778481841,
+      "result": "TP"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-18 10:45:00",
+      "exit_time": "2026-02-18 19:30:00",
+      "direction": "SHORT",
+      "entry": 84.26,
+      "exit": 80.60000000000001,
+      "pnl": 0.9679816916148842,
+      "result": "TP"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-16 21:00:00",
+      "exit_time": "2026-02-18 01:00:00",
+      "direction": "LONG",
+      "entry": 9.22,
+      "exit": 9.08,
+      "pnl": -0.4347066925475555,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-16 20:45:00",
+      "exit_time": "2026-02-18 01:30:00",
+      "direction": "LONG",
+      "entry": 9.21,
+      "exit": 9.06,
+      "pnl": -0.4656800734492488,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-18 01:00:00",
+      "exit_time": "2026-02-18 08:15:00",
+      "direction": "SHORT",
+      "entry": 9.1,
+      "exit": 9.2,
+      "pnl": -0.26812650472599064,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-18 04:15:00",
+      "exit_time": "2026-02-18 08:15:00",
+      "direction": "SHORT",
+      "entry": 9.08,
+      "exit": 9.17,
+      "pnl": -0.23752511165796808,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-18 10:45:00",
+      "exit_time": "2026-02-18 19:30:00",
+      "direction": "SHORT",
+      "entry": 9.09,
+      "exit": 8.849999999999998,
+      "pnl": 0.5944552509233688,
+      "result": "TP"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-18 10:30:00",
+      "exit_time": "2026-02-18 22:00:00",
+      "direction": "SHORT",
+      "entry": 9.08,
+      "exit": 8.819999999999999,
+      "pnl": 0.6452521268646348,
+      "result": "TP"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-17 05:15:00",
+      "exit_time": "2026-02-18 17:15:00",
+      "direction": "SHORT",
+      "entry": 0.1138,
+      "exit": 0.10959999999999999,
+      "pnl": 0.9672004130004744,
+      "result": "TP"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-17 22:45:00",
+      "exit_time": "2026-02-18 19:30:00",
+      "direction": "SHORT",
+      "entry": 0.1128,
+      "exit": 0.108,
+      "pnl": 1.1005408255605396,
+      "result": "TP"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 01:00:00",
+      "exit_time": "2026-02-19 08:30:00",
+      "direction": "LONG",
+      "entry": 8.88,
+      "exit": 8.8,
+      "pnl": -0.2438389186671574,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 01:30:00",
+      "exit_time": "2026-02-19 08:30:00",
+      "direction": "LONG",
+      "entry": 8.9,
+      "exit": 8.8,
+      "pnl": -0.3022608962617442,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 13:00:00",
+      "exit_time": "2026-02-19 16:30:00",
+      "direction": "SHORT",
+      "entry": 8.77,
+      "exit": 8.89,
+      "pnl": -0.358447510926193,
+      "result": "SL"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 13:15:00",
+      "exit_time": "2026-02-19 16:30:00",
+      "direction": "SHORT",
+      "entry": 8.75,
+      "exit": 8.87,
+      "pnl": -0.3592500615022289,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-16 00:00:00",
+      "exit_time": "2026-02-19 00:00:00",
+      "direction": "LONG",
+      "entry": 8.84,
+      "exit": 8.6,
+      "pnl": -0.864203619909503,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-17 23:00:00",
+      "exit_time": "2026-02-19 00:00:00",
+      "direction": "SHORT",
+      "entry": 8.83,
+      "exit": 8.590000000000002,
+      "pnl": 0.7216467220644395,
+      "result": "TP"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-19 00:30:00",
+      "exit_time": "2026-02-19 13:00:00",
+      "direction": "LONG",
+      "entry": 8.61,
+      "exit": 8.52,
+      "pnl": -0.2658622490473734,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-19 00:45:00",
+      "exit_time": "2026-02-19 13:00:00",
+      "direction": "LONG",
+      "entry": 8.61,
+      "exit": 8.52,
+      "pnl": -0.2658622490473734,
+      "result": "SL"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-18 18:30:00",
+      "exit_time": "2026-02-19 15:00:00",
+      "direction": "SHORT",
+      "entry": 0.1088,
+      "exit": 0.09939999999999997,
+      "pnl": 2.159548143295125,
+      "result": "TP"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-18 21:45:00",
+      "exit_time": "2026-02-19 15:30:00",
+      "direction": "SHORT",
+      "entry": 0.1075,
+      "exit": 0.0989,
+      "pnl": 2.0912344148998034,
+      "result": "TP"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-20 05:00:00",
+      "exit_time": "2026-02-20 16:00:00",
+      "direction": "SHORT",
+      "entry": 0.0963,
+      "exit": 0.0985,
+      "pnl": -0.6629911169966588,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-19 13:00:00",
+      "exit_time": "2026-02-20 08:15:00",
+      "direction": "SHORT",
+      "entry": 8.53,
+      "exit": 8.69,
+      "pnl": -0.46082523856600643,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-19 13:15:00",
+      "exit_time": "2026-02-20 08:15:00",
+      "direction": "SHORT",
+      "entry": 8.48,
+      "exit": 8.69,
+      "pnl": -0.6061852147469731,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-20 13:00:00",
+      "exit_time": "2026-02-20 15:00:00",
+      "direction": "SHORT",
+      "entry": 8.59,
+      "exit": 8.73,
+      "pnl": -0.44520630616614026,
+      "result": "SL"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-20 13:15:00",
+      "exit_time": "2026-02-20 15:00:00",
+      "direction": "SHORT",
+      "entry": 8.58,
+      "exit": 8.73,
+      "pnl": -0.4770052535214726,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-18 18:15:00",
+      "exit_time": "2026-02-20 09:00:00",
+      "direction": "SHORT",
+      "entry": 81.74,
+      "exit": 84.01,
+      "pnl": -0.6515118747430183,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-20 09:00:00",
+      "exit_time": "2026-02-20 13:30:00",
+      "direction": "LONG",
+      "entry": 84.29,
+      "exit": 82.38,
+      "pnl": -0.5780806201574438,
+      "result": "SL"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-20 13:30:00",
+      "exit_time": "2026-02-20 16:00:00",
+      "direction": "SHORT",
+      "entry": 81.95,
+      "exit": 84.84,
+      "pnl": -0.874079978033612,
+      "result": "SL"
+    },
+    {
+      "asset": "OP",
+      "entry_time": "2026-02-21 00:00:00",
+      "exit_time": "2026-02-21 02:30:00",
+      "direction": "LONG",
+      "entry": 0.1284,
+      "exit": 0.13179999999999994,
+      "pnl": 0.6199809542541355,
+      "result": "TP"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-21 04:45:00",
+      "exit_time": "2026-02-21 06:15:00",
+      "direction": "LONG",
+      "entry": 0.0972,
+      "exit": 0.09979999999999999,
+      "pnl": 0.6435801247431707,
+      "result": "TP"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 16:30:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 8.88,
+      "exit": 9.14,
+      "pnl": 0.7221466730208443,
+      "result": "EOD"
+    },
+    {
+      "asset": "AVAX",
+      "entry_time": "2026-02-19 17:00:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 8.88,
+      "exit": 9.14,
+      "pnl": 0.7221466730208443,
+      "result": "EOD"
+    },
+    {
+      "asset": "ARB",
+      "entry_time": "2026-02-19 19:30:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "SHORT",
+      "entry": 0.098,
+      "exit": 0.0984,
+      "pnl": -0.12517891763025335,
+      "result": "EOD"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-20 20:00:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 8.95,
+      "exit": 8.86,
+      "pnl": -0.26761567579919127,
+      "result": "EOD"
+    },
+    {
+      "asset": "LINK",
+      "entry_time": "2026-02-20 21:45:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 8.98,
+      "exit": 8.86,
+      "pnl": -0.35319724572168454,
+      "result": "EOD"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-20 00:00:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 82.82,
+      "exit": 84.03,
+      "pnl": 0.3706786273078364,
+      "result": "EOD"
+    },
+    {
+      "asset": "SOL",
+      "entry_time": "2026-02-20 18:30:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 85.05,
+      "exit": 84.03,
+      "pnl": -0.29062092454555033,
+      "result": "EOD"
+    },
+    {
+      "asset": "OP",
+      "entry_time": "2026-02-21 01:30:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 0.1299,
+      "exit": 0.1301,
+      "pnl": 0.029679034290752023,
+      "result": "EOD"
+    },
+    {
+      "asset": "OP",
+      "entry_time": "2026-02-21 05:15:00",
+      "exit_time": "2026-02-21 07:00:00",
+      "direction": "LONG",
+      "entry": 0.1332,
+      "exit": 0.1301,
+      "pnl": -0.572948983752022,
+      "result": "EOD"
+    }
+  ],
+  "daily_capital": [
+    30.0,
+    30.0,
+    30.0,
+    26.76171965124559,
+    22.814832785347637,
+    24.984879508958233,
+    27.297583283856028,
+    22.541697680924702,
+    23.80525875992201
+  ],
+  "final_capital": 24.040348020113584,
+  "max_dd": 24.861007730250993
+}

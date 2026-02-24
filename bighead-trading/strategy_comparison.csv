@@ -1,0 +1,10 @@
+Metric,Static (ARB+OP+ETH),Adaptive (Daily Rebal),Winner
+Final Capital,$46.13,$24.04,Static
+7-Day Return,+53.76%,-19.87%,Static (+73.6pp)
+Total Trades,24,57,Static (fewer = better)
+Win Rate,59.5%,29.8%,Static (+29.7pp)
+Avg Trade,$0.67,-$0.10,Static
+Max Drawdown,21.8%,24.9%,Static (lower)
+Trades/Day,3.4,8.1,Static (quality > quantity)
+Best Asset,ARB (+87%),ARB (+$5.42),Tie (ARB)
+Worst Asset,None (all profitable),LINK (-$5.04),Static (no losers)

@@ -1,0 +1,143 @@
+Program Name,Category,Amount/Deal,Type,Deadline,Status,Priority,Fit Score,Application Link,Warm Intro?,Notes
+Y Combinator,Top Tier,$500K for 7%,Accelerator,Rolling (batch-based),Not Started,1,10,https://www.ycombinator.com/apply,Check network,Gold standard - AI agents are hot topic
+Anthropic Startup Program,Top Tier,"$25K-$50K credits, no equity",Credits,Rolling,Not Started,1,10,https://www.anthropic.com/startups,Direct apply,Building on Claude - obvious win
+a16z Speedrun,Top Tier,$750K,Accelerator,Check site,Not Started,1,9,https://a16z.com/speedrun/,Warm intro preferred,AI-focused 12-week program
+OpenAI Startup Fund,Top Tier,$1M + API credits,Investment,Rolling,Not Started,1,9,https://openai.com/fund,Warm intro preferred,Multi-agent systems focus
+Microsoft for Startups,Credits/Top Tier,"$150K Azure/OpenAI credits, no equity",Credits,Rolling,Not Started,1,10,https://www.microsoft.com/startups,Self-serve,Free credits - apply immediately
+AWS Activate,Credits,"$100K credits, no equity",Credits,Via accelerators,Not Started,1,9,https://aws.amazon.com/activate/,Through VCs,Infra credits for runway
+Base Ecosystem Fund,Crypto,Grants + investment,Grant/Investment,Rolling,Not Started,1,8,https://base.org/fund,Check Coinbase network,Angle: ops layer for onchain teams
+Google for Startups AI,Top Tier,"$100K+ GCP credits, equity-free",Accelerator,Cohort-based,Not Started,2,9,https://startup.google.com/programs/accelerator/,Direct apply,AI/ML product fit
+Techstars AI,Accelerator,$120K for equity,Accelerator,Cohort-based,Not Started,2,8,https://www.techstars.com/accelerators/ai,Direct apply,Standard accelerator model
+Antler,Accelerator,$250K,Accelerator,Rolling,Not Started,2,8,https://www.antler.co/apply,Check network,Global - multiple hubs
+On Deck AI,Residency,$125K,Residency,Cohort-based,Not Started,2,8,https://www.beondeck.com/ai,Check OD network,8-week builder residency
+South Park Commons,Residency,$400K or residency-only,Residency,Rolling,Not Started,2,8,https://www.southparkcommons.com/,Warm intro,Solo/small teams building AI
+Coinbase Ventures,Crypto,Seed/Series A,Investment,Warm intro,Not Started,2,7,https://ventures.coinbase.com/,Need warm intro,Direct investment arm
+Alliance DAO,Crypto,$250K,Accelerator,Cohort-based,Not Started,2,7,https://www.alliance.xyz/,Check crypto network,"Angle: ""agent teams for DAOs"""
+TinySeed,SaaS,$120K for equity,Investment,Cohort-based,Not Started,2,9,https://tinyseed.com/,Direct apply,Perfect for bootstrapped SaaS
+Earnest Capital,SaaS,Revenue-based financing,Investment,Rolling,Not Started,2,8,https://earnestcapital.com/,Direct apply,Founder-friendly terms
+Pioneer.app,Indie Grant,$100K grants,Grant,Rolling,Not Started,2,9,https://pioneer.app/,Direct apply,Solo founder leaderboard
+Discord Nitro for Developers,Credits,Free Nitro for approved bots,Credits,Rolling,Not Started,1,10,https://discord.com/developers,Direct apply,Building on Discord - must apply
+Stripe Atlas,Credits,$5K credits package,Credits,Rolling,Not Started,1,8,https://stripe.com/atlas,Self-serve,Free incorporation + credits
+Emergent Ventures,Grant,$1K-$50K,Grant,Rolling,Not Started,2,7,https://www.mercatus.org/emergent-ventures,Direct apply,Fast decisions - moonshot experiments
+AI Grant,Grant,"$250K, no equity",Grant,Check site,Not Started,2,9,https://aigrant.org/,Direct apply,a16z-backed AI research grants
+Mozilla Builders,Grant/OSS,$2K-$100K,Grant,Check site,Not Started,3,7,https://builders.mozilla.community/,Direct apply,Open web/OSS angle
+Gitcoin Grants,Grant,Community-funded,Grant,Round-based,Not Started,3,6,https://gitcoin.co/grants,Direct apply,If open-sourcing components
+Notion for Startups,Credits,$6K credits,Credits,Rolling,Not Started,1,7,https://www.notion.so/startups,Self-serve,Free workspace tool
+Figma for Startups,Credits,Free Professional,Credits,Rolling,Not Started,1,7,https://www.figma.com/startups/,Self-serve,Design tooling
+HubSpot for Startups,Credits,90% off for 1 year,Credits,Rolling,Not Started,1,7,https://www.hubspot.com/startups,Via partners,CRM + marketing automation
+Airtable for Startups,Credits,"$3K credits, 12 months",Credits,Rolling,Not Started,1,6,https://www.airtable.com/startups,Self-serve,Database workflows
+DigitalOcean Hatch,Credits,$120K over 1 year,Credits,Rolling,Not Started,2,7,https://www.digitalocean.com/hatch,Direct apply,Cloud infra credits
+Render Startup Program,Credits,$5K credits,Credits,Rolling,Not Started,2,6,https://render.com/startups,Direct apply,Modern hosting
+Cloudflare Workers Launchpad,Credits,$50K-$250K,Credits,Cohort-based,Not Started,2,7,https://www.cloudflare.com/lp/workers-launchpad/,Direct apply,Edge compute for agents
+500 Global,Accelerator,$150K,Accelerator,Cohort-based,Not Started,2,7,https://500.co/,Direct apply,Global network
+MassChallenge,Accelerator,"$100K+ prizes, equity-free",Accelerator,Cohort-based,Not Started,2,8,https://masschallenge.org/,Direct apply,Multiple US cities
+Creative Destruction Lab,Accelerator,"Mentor-driven, no equity",Accelerator,Cohort-based,Not Started,3,7,https://creativedestructionlab.com/,Direct apply,Academic-backed AI stream
+Alchemist Accelerator,Accelerator,$36K,Accelerator,Cohort-based,Not Started,3,7,https://alchemistaccelerator.com/,Direct apply,Enterprise B2B focus
+Berkeley SkyDeck,Accelerator,$100K,Accelerator,Cohort-based,Not Started,3,6,https://skydeck.berkeley.edu/,Berkeley connection helps,6-month program
+Plug and Play AI,Accelerator,Corporate partnerships,Accelerator,Cohort-based,Not Started,3,6,https://www.plugandplaytechcenter.com/ai/,Direct apply,B2B corporate angle
+Draper University,Residency,Equity-free residency,Residency,Rolling,Not Started,3,6,https://www.draperuniversity.com/,Direct apply,5-week hero training
+Solana Foundation Grants,Crypto,$5K-$100K,Grant,Rolling,Not Started,3,5,https://solana.org/grants,Direct apply,If building Solana agent tooling
+Polygon Ventures,Crypto,Grants + investment,Grant/Investment,Rolling,Not Started,3,5,https://polygon.technology/funds,Direct apply,Multi-chain angle
+Arbitrum Grants,Crypto,Up to $500K,Grant,Rolling,Not Started,3,5,https://arbitrum.foundation/grants,Direct apply,L2 ecosystem
+Optimism RetroPGF,Crypto,Retroactive funding,Grant,Round-based,Not Started,3,6,https://app.optimism.io/retropgf,Direct apply,If open-sourcing frameworks
+Near Foundation,Crypto,$10K-$200K,Grant,Rolling,Not Started,3,5,https://near.org/grants,Direct apply,Cross-chain systems
+Binance Labs,Crypto,$500K-$3M,Investment,Rolling,Not Started,3,5,https://labs.binance.com/,Warm intro preferred,Crypto-native products
+Uniswap Grants,Crypto,$10K-$250K,Grant,Rolling,Not Started,3,5,https://www.uniswapfoundation.org/grants,Direct apply,DeFi agent automation
+Compound Grants,Crypto,DeFi ecosystem grants,Grant,Rolling,Not Started,3,5,https://compoundgrants.org/,Direct apply,Lending/DeFi agents
+Aave Grants DAO,Crypto,Up to $100K,Grant,Rolling,Not Started,3,5,https://aavegrants.org/,Direct apply,Lending automation
+Chainlink BUILD,Crypto,Oracle integration grants,Grant,Rolling,Not Started,3,5,https://chain.link/build,Direct apply,Agents consuming oracle data
+AI2 Incubator,AI Specific,$250K,Accelerator,Cohort-based,Not Started,3,7,https://allenai.org/incubator,Check Seattle network,Allen Institute backed
+Cohere For AI,AI Specific,Credits + support,Credits,Rolling,Not Started,3,6,https://cohere.com/startups,Direct apply,If using Cohere LLMs
+Hugging Face Startup,AI Specific,Free hosting + credits,Credits,Rolling,Not Started,3,7,https://huggingface.co/startups,Direct apply,Model hosting credits
+Stability AI Startup,AI Specific,API credits,Credits,Rolling,Not Started,3,5,https://stability.ai/startups,Direct apply,If integrating image/video
+NVIDIA Inception,AI Specific,GPU credits + support,Credits,Rolling,Not Started,2,8,https://www.nvidia.com/startups/,Direct apply,AI compute-heavy workloads
+AI Camp Singapore,AI Specific,$150K,Accelerator,Cohort-based,Not Started,4,5,https://aicamp.ai/,Direct apply,Southeast Asia focus
+Zeroth.AI,AI Specific,$100K,Accelerator,Cohort-based,Not Started,4,5,https://zeroth.ai/,Direct apply,Asia-Pacific AI market
+Entrepreneur First,Accelerator,£80K,Accelerator,Cohort-based,Not Started,3,6,https://www.joinef.com/,Direct apply,Pre-idea → company pipeline
+SaaS Academy,SaaS,$30K,Accelerator,Cohort-based,Not Started,3,7,https://www.saasacademy.com/,Direct apply,Early SaaS revenue ($1K+ MRR)
+Indie.vc,SaaS,Revenue-based,Investment,Rolling,Not Started,3,7,https://www.indie.vc/,Direct apply,Profitable/near-profitable
+Twilio Startup,Credits,$500-$5K,Credits,Rolling,Not Started,3,5,https://www.twilio.com/startups,Direct apply,If integrating messaging
+Linode Startups,Credits,$100K over 12 months,Credits,Rolling,Not Started,3,6,https://www.linode.com/startups/,Direct apply,Infra credits
+gener8tor,Regional US,$100K,Accelerator,Cohort-based,Not Started,3,6,https://www.gener8tor.com/,Direct apply,Midwest/Southeast focus
+Capital Factory,Regional US,$50K-$100K,Accelerator,Cohort-based,Not Started,3,7,https://www.capitalfactory.com/,Direct apply,Austin tech scene (AI/crypto hub)
+MassChallenge Austin,Regional US,"$100K+ prizes, equity-free",Accelerator,Cohort-based,Not Started,3,7,https://masschallenge.org/programs-austin,Direct apply,Austin location
+Techstars Austin,Regional US,$120K,Accelerator,Cohort-based,Not Started,3,6,https://www.techstars.com/,Direct apply,Austin program
+Techstars Boulder,Regional US,$120K,Accelerator,Cohort-based,Not Started,3,6,https://www.techstars.com/,Direct apply,Boulder ecosystem
+Boomtown Accelerator,Regional US,$50K,Accelerator,Cohort-based,Not Started,4,5,https://boomtownaccelerators.com/,Direct apply,Boulder-based
+LABS Los Angeles,Regional US,Investment,Accelerator,Cohort-based,Not Started,4,4,https://labs.la/,Direct apply,LA entertainment tech angle
+The Brandery,Regional US,$50K,Accelerator,Cohort-based,Not Started,4,5,https://brandery.org/,Direct apply,Cincinnati consumer/B2B
+Backstage Capital,Diversity,$100K,Investment,Rolling,Not Started,3,5,https://backstagecapital.com/,Direct apply,Underrepresented founders
+Amplifyher Ventures,Diversity,$100K,Investment,Rolling,Not Started,3,5,https://www.amplifyher.vc/,Direct apply,Women-led startups
+Urban-X,Regional US,Investment,Accelerator,Cohort-based,Not Started,4,4,https://www.urban-x.com/,Direct apply,Brooklyn smart cities
+Halcyon Incubator,Regional US,Grants,Accelerator,Cohort-based,Not Started,4,4,https://halcyonhouse.org/,Direct apply,DC social impact
+Launch Tennessee,Regional US,Grants + investment,Accelerator,Cohort-based,Not Started,4,4,https://www.launchtn.org/,Direct apply,Tennessee-based
+Station F,Regional Europe,Residency + funding,Residency,Rolling,Not Started,3,6,https://stationf.co/,Direct apply,Paris - largest startup campus
+Seedcamp,Regional Europe,€100K,Accelerator,Cohort-based,Not Started,3,6,https://seedcamp.com/,Direct apply,Europe-wide network
+Founders Factory,Regional Europe,£200K,Accelerator,Cohort-based,Not Started,3,6,https://foundersfactory.com/,Direct apply,London 6-month program
+Startupbootcamp,Regional Europe,€15K + space,Accelerator,Cohort-based,Not Started,3,5,https://www.startupbootcamp.org/,Direct apply,15+ EU cities
+APX,Regional Europe,€100K,Accelerator,Cohort-based,Not Started,3,6,https://www.apx.ac/,Direct apply,Berlin - Axel Springer/Porsche
+Techstars London,Regional Europe,£100K,Accelerator,Cohort-based,Not Started,3,6,https://www.techstars.com/accelerators/london,Direct apply,UK ecosystem
+Barclays Accelerator,Regional Europe,Fintech focus,Accelerator,Cohort-based,Not Started,4,5,https://www.home.barclays/fintech/,Direct apply,Financial services angle
+Rockstart,Regional Europe,€100K,Accelerator,Cohort-based,Not Started,3,5,https://www.rockstart.com/,Direct apply,Amsterdam-based
+Startup Wise Guys,Regional Europe,€60K,Accelerator,Cohort-based,Not Started,4,5,https://startupwiseguys.com/,Direct apply,Estonia/Eastern Europe
+Startup Portugal,Regional Europe,Government-backed,Accelerator,Cohort-based,Not Started,4,4,https://startupportugal.com/,Direct apply,EU residency benefits
+Plug and Play Munich,Regional Europe,Corporate partnerships,Accelerator,Cohort-based,Not Started,4,4,https://www.plugandplaytechcenter.com/munich/,Direct apply,German enterprise
+SOSV,Regional Asia,$150K,Accelerator,Cohort-based,Not Started,3,5,https://sosv.com/,Direct apply,Asia-focused (MOX/Chinaccelerator)
+Iterative,Regional Asia,$150K,Accelerator,Cohort-based,Not Started,3,5,https://iterative.vc/,Direct apply,Singapore SEA-focused
+Antler India,Regional Asia,$250K,Accelerator,Cohort-based,Not Started,3,6,https://www.antler.co/india,Direct apply,India market entry
+T-Hub,Regional Asia,Government-backed,Incubator,Rolling,Not Started,4,5,https://t-hub.co/,Direct apply,Hyderabad - largest India incubator
+Startup India Seed Fund,Regional Asia,Up to $100K,Grant,Rolling,Not Started,4,5,https://www.startupindia.gov.in/,Direct apply,Indian government grants
+500 TukTuks,Regional Asia,$150K,Accelerator,Cohort-based,Not Started,4,4,https://500.co/,Direct apply,Southeast Asia arm
+MassChallenge Israel,Regional Asia,Equity-free,Accelerator,Cohort-based,Not Started,4,4,https://masschallenge.org/programs-israel,Direct apply,Israeli tech ecosystem
+CSIRO ON,Regional Asia,Government science/tech,Accelerator,Cohort-based,Not Started,4,4,https://www.csiro.au/,Direct apply,Australia research angle
+Startup Chile,Regional LatAm,$15K-$90K,Grant,Cohort-based,Not Started,4,4,https://www.startupchile.org/,Direct apply,South American entry
+Stanford StartX,University,Non-dilutive,Accelerator,Rolling,Not Started,3,5,https://startx.com/,Need Stanford connection,Stanford affiliates only
+Harvard Innovation Labs,University,Grants + workspace,Accelerator,Rolling,Not Started,3,5,https://innovationlabs.harvard.edu/,Need Harvard connection,Harvard network
+Princeton Entrepreneurship,University,$25K grants,Grant,Cohort-based,Not Started,4,4,https://entrepreneurship.princeton.edu/,Need Princeton connection,Princeton network
+Yale Ventures,University,Grants available,Accelerator,Rolling,Not Started,4,4,https://ventures.yale.edu/,Need Yale connection,Yale affiliates
+Cornell Tech Startup Studio,University,NYC-based,Accelerator,Cohort-based,Not Started,4,4,https://tech.cornell.edu/,Need Cornell connection,Cornell network
+CMU Project Olympus,University,Grants,Accelerator,Cohort-based,Not Started,4,5,https://www.cmu.edu/,Need CMU connection,CMU AI/robotics network
+Georgia Tech Flashpoint,University,Grants,Accelerator,Cohort-based,Not Started,4,4,https://create-x.gatech.edu/flashpoint,Need GT connection,Atlanta-based
+UT Austin Longhorn Startup,University,Grants,Accelerator,Cohort-based,Not Started,4,5,https://longhornstartup.com/,Need UT connection,UT + Austin ecosystem
+Salesforce Ventures,Corporate,Investment,Investment,Warm intro,Not Started,3,6,https://www.salesforce.com/ventures/,Warm intro preferred,B2B SaaS focus
+SAP.iO,Corporate,Accelerator,Accelerator,Cohort-based,Not Started,3,6,https://sap.io/,Direct apply,Enterprise software
+Intel Ignite,Corporate,$200K+,Accelerator,Cohort-based,Not Started,3,6,https://www.intel.com/,Direct apply,Deep tech AI compute
+IBM Global Entrepreneur,Corporate,Free cloud credits,Credits,Rolling,Not Started,3,6,https://www.ibm.com/partnerplus/startup,Direct apply,Enterprise AI integration
+Adobe Fund for Design,Corporate,Investment,Investment,Warm intro,Not Started,4,4,https://www.adobe.com/,Warm intro preferred,Creative/design automation
+Samsung NEXT,Corporate,Investment,Investment,Warm intro,Not Started,4,4,https://www.samsungnext.com/,Warm intro preferred,Mobile-first experiences
+Cisco Launchpad,Corporate,Investment,Investment,Warm intro,Not Started,4,4,https://www.cisco.com/,Warm intro preferred,Enterprise networking/security
+Dell Technologies Capital,Corporate,Investment,Investment,Warm intro,Not Started,4,4,https://www.delltechnologies.com/capital/,Warm intro preferred,B2B infrastructure
+Qualcomm Ventures,Corporate,Investment,Investment,Warm intro,Not Started,4,4,https://www.qualcommventures.com/,Warm intro preferred,Mobile edge AI
+Sony Innovation Fund,Corporate,Investment,Investment,Warm intro,Not Started,4,3,https://www.sony.com/,Warm intro preferred,Consumer tech/entertainment
+1517 Fund,Indie Grant,$100K,Investment,Rolling,Not Started,4,5,https://www.1517fund.com/,Direct apply,College dropouts only
+Fast Forward,Indie Grant,$1M,Grant,Cohort-based,Not Started,4,4,https://www.ffwd.org/,Direct apply,Tech nonprofits/social impact
+Awesome Foundation,Indie Grant,$1K,Grant,Rolling,Not Started,4,5,https://www.awesomefoundation.org/,Direct apply,No-strings micro-grants
+Uncharted,Indie Grant,$100K+,Grant,Cohort-based,Not Started,4,4,https://echoinggreen.org/,Direct apply,Social entrepreneurs
+Schmidt Futures,Indie Grant,Public good grants,Grant,Check site,Not Started,4,4,https://schmidtfutures.com/,Direct apply,AI ethics/research
+O'Reilly AlphaTech,Indie Grant,OSS/dev tools,Grant,Check site,Not Started,4,4,https://www.oreilly.com/,Direct apply,Developer community
+GitHub Sponsors,Indie Grant,Matching funds,Grant,Rolling,Not Started,3,6,https://github.com/sponsors,Direct apply,If open-sourcing agent tools
+Dev.to Community Fund,Indie Grant,$500-$5K,Grant,Rolling,Not Started,4,4,https://dev.to/,Direct apply,Developer education
+CodeNewbie Grant,Indie Grant,$1K,Grant,Rolling,Not Started,4,4,https://community.codenewbie.org/,Direct apply,Coding educators
+NLnet Foundation,Open Source,€5K-€50K,Grant,Rolling,Not Started,4,5,https://nlnet.nl/,Direct apply,Open internet/OSS protocols
+Prototype Fund,Open Source,€47K,Grant,Cohort-based,Not Started,4,5,https://prototypefund.de/en/,Direct apply,Germany civic tech OSS
+Sovereign Tech Fund,Open Source,OSS infrastructure,Grant,Rolling,Not Started,4,5,https://sovereigntechfund.de/en/,Direct apply,Critical OSS tooling
+Open Collective Foundation,Open Source,Fiscal sponsorship,Support,Rolling,Not Started,4,4,https://opencollective.com/,Direct apply,Community-funded projects
+Software Freedom Conservancy,Open Source,Legal/financial home,Support,Rolling,Not Started,4,4,https://sfconservancy.org/,Direct apply,Large FOSS projects
+Linux Foundation,Open Source,Hosting + grants,Support,Rolling,Not Started,4,5,https://www.linuxfoundation.org/,Direct apply,OSS infrastructure hosting
+Apache Software Foundation,Open Source,Project hosting,Support,Rolling,Not Started,4,4,https://www.apache.org/,Direct apply,Apache project model
+NumFOCUS,Open Source,$5K-$10K,Grant,Cohort-based,Not Started,4,4,https://numfocus.org/,Direct apply,Scientific computing OSS
+Protocol Labs,Grant,Decentralized/AI grants,Grant,Rolling,Not Started,4,4,https://grants.protocol.ai/,Direct apply,Filecoin/IPFS ecosystem
+Thiel Fellowship,Grant,$100K,Grant,Cohort-based,Not Started,5,3,https://thielfellowship.org/,Direct apply,Under 23 + drop out required
+On Deck Catalyst,Support,VC intro program,Accelerator,Cohort-based,Not Started,3,6,https://www.beondeck.com/catalyst,Direct apply,Fundraising bootcamp
+Twitter/X Developer Grants,Grant,Developer grants,Grant,Check site,Not Started,4,5,https://developer.twitter.com/,Direct apply,Building on X API
+Product Hunt Ship,Support,Launch + growth,Platform,Rolling,Not Started,3,6,https://www.producthunt.com/ship,Direct apply,Launch support
+Indie Worldwide Grants,Grant,$1K-$10K,Grant,Check site,Not Started,4,5,https://indieworldwide.co/,Direct apply,Indie builder micro-grants
+Sequoia Arc,Accelerator,Potential Sequoia investment,Accelerator,Application-based,Not Started,2,7,https://www.sequoiacap.com/arc/,Warm intro preferred,Early-stage Sequoia program
+Neo Accelerator,Accelerator,$250K,Accelerator,Rolling,Not Started,3,6,https://neo.com/accelerator,Direct apply,Young technical founders
+Founder University,Residency,12-week program,Accelerator,Cohort-based,Not Started,3,5,https://www.founder.university/,Direct apply,Jason Calacanis mentor access
+Backdrop Build,Residency,12-week residency,Residency,Cohort-based,Not Started,3,6,https://backdropbuild.com/,Direct apply,1-person companies
+GitHub Education Pack,Credits,Free dev tools,Credits,Rolling,Not Started,2,6,https://education.github.com/pack,Self-serve,Student/educator only
+Webflow for Startups,Credits,50% off 1 year,Credits,Rolling,Not Started,3,5,https://webflow.com/for/startups,Self-serve,Website/landing pages
+Typeform for Startups,Credits,50% off 12 months,Credits,Rolling,Not Started,3,4,https://www.typeform.com/,Via partners,User feedback forms
+Zapier for Startups,Credits,50% off Business tier,Credits,Rolling,Not Started,3,5,https://zapier.com/,Via partners,Workflow automation
+Mailchimp for Startups,Credits,$1K credits,Credits,Via partners,Not Started,3,4,https://mailchimp.com/,Via partners,Email marketing

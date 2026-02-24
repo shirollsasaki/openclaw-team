@@ -1,0 +1,53 @@
+# Secrets
+.env
+*.env.local
+
+# Runtime
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+
+# OpenClaw runtime files
+gateway.*.lock
+update-check.json
+delivery-queue/
+media/
+completions/
+credentials/
+browser/
+canvas/
+identity/
+subagents/
+telegram/
+devices/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp / Backups
+*.bak
+*.bak.*
+/tmp/
+
+# iOS build artifacts
+DerivedData/
+*.xcuserstate
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+
+# Trading bot runtime (keep code, skip runtime data)
+bighead-trading/data/
+bighead-trading/*.log
+bighead-trading/simulation_output.log
+
+# Sisyphus drafts
+.sisyphus/

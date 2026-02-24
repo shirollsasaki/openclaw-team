@@ -1,0 +1,576 @@
+{
+  "all_results": [
+    {
+      "strategy": "Static (ARB+OP+ETH)",
+      "starting_capital": 30.0,
+      "ending_capital": 48.0780512137643,
+      "pnl": 18.078051213764297,
+      "pnl_pct": 60.260170712547655,
+      "total_trades": 19,
+      "wins": 11,
+      "win_rate": 0.5789473684210527,
+      "max_dd": 14.552669340599364,
+      "daily_selections": [
+        {
+          "date": "2026-02-14",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-15",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-17",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "assets": [
+            "ARB",
+            "OP",
+            "ETH"
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Daily Directional Filter",
+      "starting_capital": 30.0,
+      "ending_capital": 25.47738429363083,
+      "pnl": -4.522615706369169,
+      "pnl_pct": -15.075385687897235,
+      "total_trades": 46,
+      "wins": 13,
+      "win_rate": 0.2826086956521739,
+      "max_dd": 30.493818635231033,
+      "daily_selections": [
+        {
+          "date": "2026-02-14",
+          "assets": []
+        },
+        {
+          "date": "2026-02-15",
+          "assets": []
+        },
+        {
+          "date": "2026-02-16",
+          "assets": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ]
+        },
+        {
+          "date": "2026-02-17",
+          "assets": [
+            "SOL",
+            "LINK",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "assets": [
+            "SOL",
+            "ETH",
+            "ARB"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "assets": [
+            "OP",
+            "BNB",
+            "AVAX"
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "assets": [
+            "BNB",
+            "SOL",
+            "AVAX"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "assets": [
+            "AVAX",
+            "ARB",
+            "SOL"
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Uptrend Only (EMA)",
+      "starting_capital": 30.0,
+      "ending_capital": 24.77357895746372,
+      "pnl": -5.2264210425362805,
+      "pnl_pct": -17.421403475120933,
+      "total_trades": 19,
+      "wins": 4,
+      "win_rate": 0.21052631578947367,
+      "max_dd": 21.79929692816245,
+      "daily_selections": [
+        {
+          "date": "2026-02-14",
+          "assets": []
+        },
+        {
+          "date": "2026-02-15",
+          "assets": [
+            "BTC",
+            "BNB",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "assets": []
+        },
+        {
+          "date": "2026-02-17",
+          "assets": [
+            "BTC",
+            "ETH",
+            "SOL"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "assets": [
+            "SOL",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "assets": []
+        },
+        {
+          "date": "2026-02-20",
+          "assets": [
+            "BNB",
+            "BTC",
+            "SOL"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "assets": [
+            "AVAX",
+            "BTC",
+            "ETH"
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Hybrid Filter",
+      "starting_capital": 30.0,
+      "ending_capital": 23.42442861520677,
+      "pnl": -6.5755713847932284,
+      "pnl_pct": -21.918571282644095,
+      "total_trades": 23,
+      "wins": 4,
+      "win_rate": 0.17391304347826086,
+      "max_dd": 22.61952257551093,
+      "daily_selections": [
+        {
+          "date": "2026-02-14",
+          "assets": []
+        },
+        {
+          "date": "2026-02-15",
+          "assets": [
+            "BNB"
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "assets": []
+        },
+        {
+          "date": "2026-02-17",
+          "assets": [
+            "LINK",
+            "SOL",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "assets": []
+        },
+        {
+          "date": "2026-02-19",
+          "assets": []
+        },
+        {
+          "date": "2026-02-20",
+          "assets": [
+            "SOL",
+            "AVAX"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "assets": [
+            "ARB",
+            "SOL",
+            "AVAX"
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Pure Momentum (3-day)",
+      "starting_capital": 30.0,
+      "ending_capital": 19.8150071826754,
+      "pnl": -10.184992817324598,
+      "pnl_pct": -33.949976057748664,
+      "total_trades": 42,
+      "wins": 7,
+      "win_rate": 0.16666666666666666,
+      "max_dd": 39.22044608207943,
+      "daily_selections": [
+        {
+          "date": "2026-02-14",
+          "assets": []
+        },
+        {
+          "date": "2026-02-15",
+          "assets": [
+            "SOL",
+            "BNB",
+            "ETH"
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "assets": [
+            "LINK",
+            "AVAX",
+            "OP"
+          ]
+        },
+        {
+          "date": "2026-02-17",
+          "assets": [
+            "SOL",
+            "BNB",
+            "LINK"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "assets": [
+            "OP",
+            "BNB",
+            "SOL"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "assets": [
+            "ETH",
+            "SOL",
+            "BTC"
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "assets": [
+            "SOL",
+            "LINK",
+            "OP"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "assets": [
+            "ARB",
+            "OP",
+            "LINK"
+          ]
+        }
+      ]
+    }
+  ],
+  "winner": {
+    "strategy": "Static (ARB+OP+ETH)",
+    "starting_capital": 30.0,
+    "ending_capital": 48.0780512137643,
+    "pnl": 18.078051213764297,
+    "pnl_pct": 60.260170712547655,
+    "total_trades": 19,
+    "wins": 11,
+    "win_rate": 0.5789473684210527,
+    "max_dd": 14.552669340599364,
+    "trades": [
+      {
+        "asset": "ARB",
+        "direction": "LONG",
+        "entry": 0.1202,
+        "exit": 0.1173,
+        "pnl": -0.7689833610648918,
+        "result": "SL"
+      },
+      {
+        "asset": "ARB",
+        "direction": "LONG",
+        "entry": 0.1206,
+        "exit": 0.1173,
+        "pnl": -0.870940298507462,
+        "result": "SL"
+      },
+      {
+        "asset": "OP",
+        "direction": "LONG",
+        "entry": 0.1969,
+        "exit": 0.1923,
+        "pnl": -0.7449065515490085,
+        "result": "SL"
+      },
+      {
+        "asset": "OP",
+        "direction": "LONG",
+        "entry": 0.198,
+        "exit": 0.1923,
+        "pnl": -0.9158181818181835,
+        "result": "SL"
+      },
+      {
+        "asset": "ETH",
+        "direction": "SHORT",
+        "entry": 2056.5,
+        "exit": 2098.89,
+        "pnl": -0.5858725773539653,
+        "result": "SL"
+      },
+      {
+        "asset": "ETH",
+        "direction": "SHORT",
+        "entry": 2064.19,
+        "exit": 2098.89,
+        "pnl": -0.4792798318862973,
+        "result": "SL"
+      },
+      {
+        "asset": "OP",
+        "direction": "SHORT",
+        "entry": 0.1896,
+        "exit": 0.17359999999999998,
+        "pnl": 2.3577555267890635,
+        "result": "TP"
+      },
+      {
+        "asset": "OP",
+        "direction": "SHORT",
+        "entry": 0.1885,
+        "exit": 0.17409999999999998,
+        "pnl": 2.133603967986076,
+        "result": "TP"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.1159,
+        "exit": 0.10590000000000002,
+        "pnl": 2.5607827585861354,
+        "result": "TP"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.1151,
+        "exit": 0.10569999999999997,
+        "pnl": 2.4234116424325505,
+        "result": "TP"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.1055,
+        "exit": 0.0997,
+        "pnl": 2.0161817313241364,
+        "result": "TP"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.1049,
+        "exit": 0.09789999999999999,
+        "pnl": 2.449492672146875,
+        "result": "TP"
+      },
+      {
+        "asset": "OP",
+        "direction": "SHORT",
+        "entry": 0.1605,
+        "exit": 0.14470000000000002,
+        "pnl": 4.078821092477601,
+        "result": "TP"
+      },
+      {
+        "asset": "OP",
+        "direction": "SHORT",
+        "entry": 0.1602,
+        "exit": 0.14520000000000005,
+        "pnl": 3.8789699627564134,
+        "result": "TP"
+      },
+      {
+        "asset": "ETH",
+        "direction": "SHORT",
+        "entry": 2011.0,
+        "exit": 1963.24,
+        "pnl": 0.6315458523104136,
+        "result": "EOD"
+      },
+      {
+        "asset": "ETH",
+        "direction": "SHORT",
+        "entry": 2020.14,
+        "exit": 1963.24,
+        "pnl": 0.7504330540079026,
+        "result": "EOD"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.1002,
+        "exit": 0.0987,
+        "pnl": 0.5724285603636726,
+        "result": "EOD"
+      },
+      {
+        "asset": "ARB",
+        "direction": "SHORT",
+        "entry": 0.098,
+        "exit": 0.0987,
+        "pnl": -0.30868833447725985,
+        "result": "EOD"
+      },
+      {
+        "asset": "OP",
+        "direction": "LONG",
+        "entry": 0.1332,
+        "exit": 0.1303,
+        "pnl": -1.1008864707594803,
+        "result": "EOD"
+      }
+    ],
+    "daily_selections": [
+      {
+        "date": "2026-02-14",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-15",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-17",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-18",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-19",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-20",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      },
+      {
+        "date": "2026-02-21",
+        "assets": [
+          "ARB",
+          "OP",
+          "ETH"
+        ]
+      }
+    ]
+  }
+}
