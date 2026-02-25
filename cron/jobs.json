@@ -17,7 +17,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "systemEvent",
-        "text": "Before scanning for signals, read your knowledge context:\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\n- cat $OPENCLAW_HOME/richard/knowledge/boss-preferences.md\nUse this context when scoring signals — note relevance to [[ClawDeploy]] or [[Corners]] where applicable.\n\nRun your morning brief. Use web_search to check Product Hunt, Hacker News, and crypto Twitter for trending opportunities. Do NOT use curl or direct API calls — use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and move on. Post 2-3 signals with quick scores."
+        "text": "Before scanning for signals, read your knowledge context:\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\n- cat $OPENCLAW_HOME/richard/knowledge/boss-preferences.md\nUse this context when scoring signals \u2014 note relevance to [[ClawDeploy]] or [[Corners]] where applicable.\n\nRun your morning brief. Use web_search to check Product Hunt, Hacker News, and crypto Twitter for trending opportunities. Do NOT use curl or direct API calls \u2014 use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and move on. Post 2-3 signals with quick scores."
       },
       "delivery": {
         "mode": "announce",
@@ -48,7 +48,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "systemEvent",
-        "text": "Run 4-hour team status dashboard. Check in with every agent — what have they been working on? Surface any blockers. Flag resource concerns. Highlight completed deliverables for boss review."
+        "text": "Run 4-hour team status dashboard. Check in with every agent \u2014 what have they been working on? Surface any blockers. Flag resource concerns. Highlight completed deliverables for boss review."
       },
       "delivery": {
         "mode": "announce",
@@ -65,7 +65,7 @@
     {
       "id": "1729e564-8c70-4108-abcc-0b87421712ed",
       "agentId": "monica",
-      "name": "Morning Trends Brief — @launcodes",
+      "name": "Morning Trends Brief \u2014 @launcodes",
       "enabled": true,
       "notify": true,
       "createdAtMs": 1771401844637,
@@ -98,7 +98,7 @@
     {
       "id": "53167632-d2b3-444c-98e8-00c358d28c82",
       "agentId": "monica",
-      "name": "Hourly Tweet — @CLIRichard",
+      "name": "Hourly Tweet \u2014 @CLIRichard",
       "enabled": true,
       "createdAtMs": 1771439281255,
       "updatedAtMs": 1771947159087,
@@ -111,7 +111,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "You have ONE job this session: write and post ONE tweet to @CLIRichard. Move fast — you have 8 minutes total.\n\n## PICK ONE CONTENT TYPE\n\n1. **BUILD LOG** — What the team is doing right now. Talk about the CRAFT: wiring AI agents to collaborate, building cron systems, multi-agent pipelines, automating workflows. Meta of building with AI. NEVER mention product names (no Corners, no Early.build, no ClawDeploy).\n\n2. **AGENT COLLAB STORY** — How the agents work together. Real workflows: BD agent found 60 targets → writer sent 60 personalized DMs in 20 min. Researcher surfaced trend → CMO mapped angles → writer shipped thread. Make it concrete.\n\n3. **TRENDING TAKE** — Use web_search to find the hottest AI/dev/crypto topic right now. Write a sharp, opinionated take.\n\n4. **REPLY TO BOSS** — Use web_search to find recent tweets from @launcodes. If he posted in the last 2 hours, write a reply using: bash -c 'export $(grep -v \"^#\" $OPENCLAW_HOME/.env | grep -v \"^$\" | xargs) && node $OPENCLAW_HOME/scripts/x-post.mjs \"reply text\" --reply TWEET_ID_HERE'\n\n## PROCESS (fast)\n1. Pick content type\n2. Write 3 hook variations, pick the best\n3. Tweet MUST be ≤280 chars, scroll-stopping, CT-native voice, zero filler\n4. Post: bash -c 'export $(grep -v \"^#\" $OPENCLAW_HOME/.env | grep -v \"^$\" | xargs) && node $OPENCLAW_HOME/scripts/x-post.mjs \"YOUR TWEET\"'\n5. Report the URL\n\nDo NOT over-iterate. Pick → write → post. Done.",
+        "message": "You have ONE job this session: write and post ONE tweet to @CLIRichard. Move fast \u2014 you have 8 minutes total.\n\n## PICK ONE CONTENT TYPE\n\n1. **BUILD LOG** \u2014 What the team is doing right now. Talk about the CRAFT: wiring AI agents to collaborate, building cron systems, multi-agent pipelines, automating workflows. Meta of building with AI. NEVER mention product names (no Corners, no Early.build, no ClawDeploy).\n\n2. **AGENT COLLAB STORY** \u2014 How the agents work together. Real workflows: BD agent found 60 targets \u2192 writer sent 60 personalized DMs in 20 min. Researcher surfaced trend \u2192 CMO mapped angles \u2192 writer shipped thread. Make it concrete.\n\n3. **TRENDING TAKE** \u2014 Use web_search to find the hottest AI/dev/crypto topic right now. Write a sharp, opinionated take.\n\n4. **REPLY TO BOSS** \u2014 Use web_search to find recent tweets from @launcodes. If he posted in the last 2 hours, write a reply using: bash -c 'export $(grep -v \"^#\" $OPENCLAW_HOME/.env | grep -v \"^$\" | xargs) && node $OPENCLAW_HOME/scripts/x-post.mjs \"reply text\" --reply TWEET_ID_HERE'\n\n## PROCESS (fast)\n1. Pick content type\n2. Write 3 hook variations, pick the best\n3. Tweet MUST be \u2264280 chars, scroll-stopping, CT-native voice, zero filler\n4. Post: bash -c 'export $(grep -v \"^#\" $OPENCLAW_HOME/.env | grep -v \"^$\" | xargs) && node $OPENCLAW_HOME/scripts/x-post.mjs \"YOUR TWEET\"'\n5. Report the URL\n\nDo NOT over-iterate. Pick \u2192 write \u2192 post. Done.",
         "timeoutSeconds": 600
       },
       "delivery": {
@@ -130,7 +130,7 @@
     {
       "id": "ef4bbf42-db3f-4012-81ad-42988e60c9c6",
       "agentId": "bighead",
-      "name": "Daily Tech Pulse — Data Digest",
+      "name": "Daily Tech Pulse \u2014 Data Digest",
       "enabled": false,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771856109075,
@@ -143,7 +143,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/bighead/knowledge/my-focus.md\nAfter completing the tech pulse, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\n- [key finding 1]\n- [key finding 2]\" >> $OPENCLAW_HOME/bighead/knowledge/my-focus.md\n\nRun the daily tech pulse digest. Your mission: use web_search to find today's top Hacker News stories (search \"top hacker news stories today\"), trending GitHub repos (search \"github trending repos today\"), and notable AI tweets (search \"AI news today twitter\"). Do NOT use curl or direct API calls — use web_search only to avoid rate limits. If any tool returns a 429 error, skip that source and move on. Format the output as a clean data digest with columns: Title | Source | Category | Relevance Score. Keep it concise — data table + 1-line summary, no essays. Post to #engineering with: \"@gilfoyle here's today's tech pulse — anything here worth a deeper look?\"",
+        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/bighead/knowledge/my-focus.md\nAfter completing the tech pulse, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\n- [key finding 1]\n- [key finding 2]\" >> $OPENCLAW_HOME/bighead/knowledge/my-focus.md\n\nRun the daily tech pulse digest. Your mission: use web_search to find today's top Hacker News stories (search \"top hacker news stories today\"), trending GitHub repos (search \"github trending repos today\"), and notable AI tweets (search \"AI news today twitter\"). Do NOT use curl or direct API calls \u2014 use web_search only to avoid rate limits. If any tool returns a 429 error, skip that source and move on. Format the output as a clean data digest with columns: Title | Source | Category | Relevance Score. Keep it concise \u2014 data table + 1-line summary, no essays. Post to #engineering with: \"@gilfoyle here's today's tech pulse \u2014 anything here worth a deeper look?\"",
         "timeoutSeconds": 180
       },
       "delivery": {
@@ -162,7 +162,7 @@
     {
       "id": "71017d40-0379-486b-933c-fd1edef3fde8",
       "agentId": "dinesh",
-      "name": "Daily AI/Crypto/SaaS Signals — Research Digest",
+      "name": "Daily AI/Crypto/SaaS Signals \u2014 Research Digest",
       "enabled": false,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771925142744,
@@ -175,7 +175,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/dinesh/knowledge/my-focus.md\nAfter completing the signals scan, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\\n- [key finding 1]\\n- [key finding 2]\" >> $OPENCLAW_HOME/dinesh/knowledge/my-focus.md\nIf a HIGH SIGNAL is found, note it as \"🔥 HIGH SIGNAL — recommend for Richard's knowledge graph\" in your #ops post.\n\nRun the daily AI/crypto/SaaS signals scan. Your mission: use web_search to scan AI, crypto, and SaaS news from the last 24 hours. Identify 3-5 notable signals: new funding rounds, product launches, market moves, regulatory changes. For each signal: summarize in 2-3 lines, rate confidence (🟢/🟡/🔴), tag relevance (AI/crypto/SaaS). Post to #research with: '@richard here are today's top signals — any worth a deeper dive?' If any signal scores high confidence, flag it: '⚠️ HIGH SIGNAL: [topic] — recommend full brief'. Keep to your methodical, data-first personality: cite sources, show your work, no speculation.",
+        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/dinesh/knowledge/my-focus.md\nAfter completing the signals scan, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\\n- [key finding 1]\\n- [key finding 2]\" >> $OPENCLAW_HOME/dinesh/knowledge/my-focus.md\nIf a HIGH SIGNAL is found, note it as \"\ud83d\udd25 HIGH SIGNAL \u2014 recommend for Richard's knowledge graph\" in your #ops post.\n\nRun the daily AI/crypto/SaaS signals scan. Your mission: use web_search to scan AI, crypto, and SaaS news from the last 24 hours. Identify 3-5 notable signals: new funding rounds, product launches, market moves, regulatory changes. For each signal: summarize in 2-3 lines, rate confidence (\ud83d\udfe2/\ud83d\udfe1/\ud83d\udd34), tag relevance (AI/crypto/SaaS). Post to #research with: '@richard here are today's top signals \u2014 any worth a deeper dive?' If any signal scores high confidence, flag it: '\u26a0\ufe0f HIGH SIGNAL: [topic] \u2014 recommend full brief'. Keep to your methodical, data-first personality: cite sources, show your work, no speculation.",
         "timeoutSeconds": 120
       },
       "delivery": {
@@ -193,7 +193,7 @@
     {
       "id": "3cebd5a8-b282-4ca9-a9be-230595c280a8",
       "agentId": "jared",
-      "name": "Morning Content Angles — Strategy Brief",
+      "name": "Morning Content Angles \u2014 Strategy Brief",
       "enabled": true,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771915886037,
@@ -206,7 +206,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Before proposing content angles, read your context:\n- cat $OPENCLAW_HOME/jared/knowledge/my-focus.md\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\nUse product context from [[ClawDeploy]] when proposing angles.\n\nRun your morning content angles brief. Your mission: review what @dinesh and @bighead posted in #research and #engineering this morning. Use web_search to find Twitter/X trends relevant to AI agents, crypto, SaaS, creator economy. Do NOT use curl or direct API calls — use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and move on. Identify 2-3 content angles from today's signals. For each angle: headline hook, target audience, format (tweet thread / short post / long-form), and why now. Post to #strategy: 'Morning content angles for today — @richard which ones should we pursue?' Include a 'Quick Win' angle that could be turned into a tweet within the hour. Keep to your personality: structured, data-informed, enthusiastic about strong angles. IMPORTANT: Do NOT send content briefs to @monica without boss approval — only propose angles to Richard."
+        "message": "Before proposing content angles, read your context:\n- cat $OPENCLAW_HOME/jared/knowledge/my-focus.md\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\nUse product context from [[ClawDeploy]] when proposing angles.\n\nRun your morning content angles brief. Your mission: review what @dinesh and @bighead posted in #research and #engineering this morning. Use web_search to find Twitter/X trends relevant to AI agents, crypto, SaaS, creator economy. Do NOT use curl or direct API calls \u2014 use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and move on. Identify 2-3 content angles from today's signals. For each angle: headline hook, target audience, format (tweet thread / short post / long-form), and why now. Post to #strategy: 'Morning content angles for today \u2014 @richard which ones should we pursue?' Include a 'Quick Win' angle that could be turned into a tweet within the hour. Keep to your personality: structured, data-informed, enthusiastic about strong angles. IMPORTANT: Do NOT send content briefs to @monica without boss approval \u2014 only propose angles to Richard."
       },
       "state": {
         "lastRunAtMs": 1771915786617,
@@ -224,7 +224,7 @@
     {
       "id": "3da85ab2-e7e9-481d-aa28-30ba1921ea0c",
       "agentId": "erlich",
-      "name": "Morning BD Scan — Partnership Opportunities",
+      "name": "Morning BD Scan \u2014 Partnership Opportunities",
       "enabled": true,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771915973154,
@@ -237,7 +237,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Before scanning BD opportunities, read your context:\n- cat $OPENCLAW_HOME/erlich/knowledge/my-focus.md\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\nUse [[ClawDeploy]] positioning and [[Lauki Antonson]] competitive context when evaluating BD angles.\n\nRun your morning BD scan. Your mission: review any signals @richard posted in his morning brief. Scan for partnership and BD opportunities: new AI agent companies, potential collaborators, events, launches. Check your existing campaign files in $OPENCLAW_HOME/erlich/campaigns/ for pipeline status. Identify 2-3 BD angles for today: who to target, why, estimated deal size, approach. Rate each opportunity using your 6-factor framework (market size, strategic fit, timeline, revenue potential, relationship strength, execution risk). Post to #bd: 'Morning BD scan — @richard here's what I'm seeing on the pipeline today' followed by your top angles. Keep to your personality: bold, confident, revenue-focused, colorful analogies. IMPORTANT: Do NOT send outreach without boss approval."
+        "message": "Before scanning BD opportunities, read your context:\n- cat $OPENCLAW_HOME/erlich/knowledge/my-focus.md\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\nUse [[ClawDeploy]] positioning and [[Lauki Antonson]] competitive context when evaluating BD angles.\n\nRun your morning BD scan. Your mission: review any signals @richard posted in his morning brief. Scan for partnership and BD opportunities: new AI agent companies, potential collaborators, events, launches. Check your existing campaign files in $OPENCLAW_HOME/erlich/campaigns/ for pipeline status. Identify 2-3 BD angles for today: who to target, why, estimated deal size, approach. Rate each opportunity using your 6-factor framework (market size, strategic fit, timeline, revenue potential, relationship strength, execution risk). Post to #bd: 'Morning BD scan \u2014 @richard here's what I'm seeing on the pipeline today' followed by your top angles. Keep to your personality: bold, confident, revenue-focused, colorful analogies. IMPORTANT: Do NOT send outreach without boss approval."
       },
       "state": {
         "lastRunAtMs": 1771915886039,
@@ -255,7 +255,7 @@
     {
       "id": "36540a6c-4e1f-4320-b833-bc0f4ca28f9f",
       "agentId": "gilfoyle",
-      "name": "Morning Tech Radar — Infrastructure & Security Scan",
+      "name": "Morning Tech Radar \u2014 Infrastructure & Security Scan",
       "enabled": true,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771916058586,
@@ -268,7 +268,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/gilfoyle/knowledge/my-focus.md\n\nRun your morning tech radar scan. Your mission: use web_search to find trending GitHub repos from the past 24h with focus on infrastructure, systems, and AI tooling. Use web_search to check Hacker News for top tech/engineering stories. Do NOT use curl or direct API calls — use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and note it. Review any data @bighead posted in #engineering this morning. Assess: any new tools worth evaluating? Any security vulnerabilities? Any infrastructure improvements we should consider? Identify 3-5 items worth flagging. For each: brief description, category (🔴 Critical / 🟡 Watch / 🟢 Interesting), and your take. Post to #engineering: 'Tech Radar — @bighead anything from your pulse worth a deeper look? Here's my take:' followed by your rated items. Keep to your personality: blunt, technically precise, no fluff, dry humor, skeptical of hype. Cite sources. Show your work.\n\nAfter completing the scan, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\\n- [key finding]\" >> $OPENCLAW_HOME/gilfoyle/knowledge/my-focus.md"
+        "message": "Before starting, read your focus context:\n- cat $OPENCLAW_HOME/gilfoyle/knowledge/my-focus.md\n\nRun your morning tech radar scan. Your mission: use web_search to find trending GitHub repos from the past 24h with focus on infrastructure, systems, and AI tooling. Use web_search to check Hacker News for top tech/engineering stories. Do NOT use curl or direct API calls \u2014 use web_search only to avoid rate limits. If any search returns a 429 or error, skip that source and note it. Review any data @bighead posted in #engineering this morning. Assess: any new tools worth evaluating? Any security vulnerabilities? Any infrastructure improvements we should consider? Identify 3-5 items worth flagging. For each: brief description, category (\ud83d\udd34 Critical / \ud83d\udfe1 Watch / \ud83d\udfe2 Interesting), and your take. Post to #engineering: 'Tech Radar \u2014 @bighead anything from your pulse worth a deeper look? Here's my take:' followed by your rated items. Keep to your personality: blunt, technically precise, no fluff, dry humor, skeptical of hype. Cite sources. Show your work.\n\nAfter completing the scan, append key findings to your focus file:\necho \"### $(date +%Y-%m-%d)\\n- [key finding]\" >> $OPENCLAW_HOME/gilfoyle/knowledge/my-focus.md"
       },
       "state": {
         "lastRunAtMs": 1771915973156,
@@ -286,7 +286,7 @@
     {
       "id": "6cf51994-f3a2-45cc-9865-221a5879ed6e",
       "agentId": "jared",
-      "name": "Afternoon Content Briefing — Monica",
+      "name": "Afternoon Content Briefing \u2014 Monica",
       "enabled": true,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771921825405,
@@ -299,7 +299,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run your afternoon content briefing for @monica. Your mission: review the content angles you proposed this morning in #strategy. Check if @richard approved any angles by scanning #strategy channel history. For each APPROVED angle: write a detailed content brief for @monica with: Topic, Target Audience, Key Message, Tone, Format (tweet/thread/post), and 3 example hooks. Post to #content: '@monica here's your afternoon content brief — [topic]. Boss approved this angle this morning.' If no angles were approved yet: post a reminder to #content: '@richard — any of this morning's angles approved? @monica is ready to write.' Keep to your personality: structured, collaborative, enthusiastic. IMPORTANT: Only brief Monica on APPROVED angles — never send unapproved content."
+        "message": "Run your afternoon content briefing for @monica. Your mission: review the content angles you proposed this morning in #strategy. Check if @richard approved any angles by scanning #strategy channel history. For each APPROVED angle: write a detailed content brief for @monica with: Topic, Target Audience, Key Message, Tone, Format (tweet/thread/post), and 3 example hooks. Post to #content: '@monica here's your afternoon content brief \u2014 [topic]. Boss approved this angle this morning.' If no angles were approved yet: post a reminder to #content: '@richard \u2014 any of this morning's angles approved? @monica is ready to write.' Keep to your personality: structured, collaborative, enthusiastic. IMPORTANT: Only brief Monica on APPROVED angles \u2014 never send unapproved content."
       },
       "state": {
         "lastRunAtMs": 1771921800015,
@@ -317,7 +317,7 @@
     {
       "id": "18794db3-a1e2-4928-924e-1710d4bd073f",
       "agentId": "erlich",
-      "name": "Weekly BD Review — Pipeline Status & Priorities",
+      "name": "Weekly BD Review \u2014 Pipeline Status & Priorities",
       "enabled": true,
       "createdAtMs": 1771500600000,
       "updatedAtMs": 1771524809028,
@@ -330,7 +330,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run your weekly BD review. Your mission: review the full week's BD activity — what was pitched, what was explored, what moved forward. Check your campaign files in $OPENCLAW_HOME/erlich/campaigns/ for the week's progress. Summarize pipeline status: deals in progress, new leads identified, deals stalled. Identify the top 3 BD priorities for the coming week. Flag any deals that need boss decision or approval. Rate your top opportunities using your 6-factor framework (market size, strategic fit, timeline, revenue potential, relationship strength, execution risk). Post to #bd: 'Weekly BD Review — @richard here's where we stand and what I'm targeting this week' followed by your pipeline summary, top 3 priorities, and any deals needing approval. Keep to your personality: bold, strategic, revenue-focused, uses colorful analogies. IMPORTANT: No outreach without boss approval."
+        "message": "Run your weekly BD review. Your mission: review the full week's BD activity \u2014 what was pitched, what was explored, what moved forward. Check your campaign files in $OPENCLAW_HOME/erlich/campaigns/ for the week's progress. Summarize pipeline status: deals in progress, new leads identified, deals stalled. Identify the top 3 BD priorities for the coming week. Flag any deals that need boss decision or approval. Rate your top opportunities using your 6-factor framework (market size, strategic fit, timeline, revenue potential, relationship strength, execution risk). Post to #bd: 'Weekly BD Review \u2014 @richard here's where we stand and what I'm targeting this week' followed by your pipeline summary, top 3 priorities, and any deals needing approval. Keep to your personality: bold, strategic, revenue-focused, uses colorful analogies. IMPORTANT: No outreach without boss approval."
       },
       "delivery": {
         "mode": "announce",
@@ -361,7 +361,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run your afternoon engineering standup. Your mission: review what @bighead posted in #engineering this morning (data pulse). Review your own morning Tech Radar post. Assess: what got done today? What's blocked? What needs attention? Post afternoon engineering standup to #engineering: '@bighead — afternoon check-in. Here's where things stand:' Format your response with: ✅ Done | 🔄 In Progress | ⚠️ Blocked | 🔜 Tomorrow. Flag any critical issues that need @richard's attention. Keep to your personality: blunt, technically precise, no fluff, dry humor."
+        "message": "Run your afternoon engineering standup. Your mission: review what @bighead posted in #engineering this morning (data pulse). Review your own morning Tech Radar post. Assess: what got done today? What's blocked? What needs attention? Post afternoon engineering standup to #engineering: '@bighead \u2014 afternoon check-in. Here's where things stand:' Format your response with: \u2705 Done | \ud83d\udd04 In Progress | \u26a0\ufe0f Blocked | \ud83d\udd1c Tomorrow. Flag any critical issues that need @richard's attention. Keep to your personality: blunt, technically precise, no fluff, dry humor."
       },
       "state": {
         "lastRunAtMs": 1771925400018,
@@ -392,7 +392,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run your EOD recap and tomorrow's focus briefing with a knowledge writeback loop.\n\nPhase 1 — Read knowledge context (do this first)\nBefore starting, read your existing knowledge files:\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/corners.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\n- cat $OPENCLAW_HOME/richard/knowledge/boss-preferences.md\n- cat $OPENCLAW_HOME/richard/knowledge/team.md\nThis gives you context on what is already known before reading today's activity.\n\nPhase 2 — Read today's activity\nReview the full day's activity across all team channels (#general, #strategy, #engineering, #research, #bd, #content). Summarize what each agent accomplished today: Bighead (data/tech), Dinesh (research/signals), Jared (content strategy), Erlich (BD/partnerships), Gilfoyle (infrastructure/security), Monica (content creation). Identify the top 3 wins of the day (what moved the needle), open items/blockers that need attention tomorrow, and tomorrow's priorities by agent.\n\nPhase 3 — Post EOD summary to #general\nPost to #general: 'EOD Recap — here's what the team accomplished today and what we're focused on tomorrow' followed by:\n- 📊 Today's Wins (top 3)\n- ⚠️ Open Items/Blockers\n- 🎯 Tomorrow's Priorities (by agent)\nKeep it concise but comprehensive; keep your strategic, decisive, team-focused Silicon Valley founder energy and make the team feel momentum.\n\nPhase 4 — Extract and write entities to knowledge/\nAfter posting the summary, extract significant entities from today's activity.\n- SIGNIFICANT = people with deals/partnerships, products being tracked, key competitors, important decisions\n- NOT significant = every HN commenter, random Twitter handle, one-off mentions\n- Quality over quantity: update 2-3 entities well rather than create 10 stubs\n\nFor each significant entity:\n1. Check whether it already exists in $OPENCLAW_HOME/richard/knowledge/\n2. If it exists: append a History entry with today's update and keep the file under 2000 chars\n3. If it is new: create a new entity file in $OPENCLAW_HOME/richard/knowledge/ using this exact format:\n   # Entity Name\n   **Last Updated**: YYYY-MM-DD\n   ## Summary\n   [1-2 sentences]\n   ## Status\n   [active/paused/archived]\n   ## Key Facts\n   - [bullet points]\n   ## Related\n   [[Backlink1]], [[Backlink2]]\n   ## History\n   ### YYYY-MM-DD\n   - [what happened today]\n\nUse [[Obsidian Backlinks]] when referencing related entities. Max 2000 chars per file; prune old History entries if needed. Only write to $OPENCLAW_HOME/richard/knowledge/ (never other agents' knowledge directories).\n\nPhase 5 — Post knowledge update to #ops\nAfter writing entity files, post a brief update to #ops:\n✅ **Richard** — EOD Knowledge Update\n📝 Entities updated: [list entity names]\n🔗 New backlinks: [count]"
+        "message": "Run your EOD recap and tomorrow's focus briefing with a knowledge writeback loop.\n\nPhase 1 \u2014 Read knowledge context (do this first)\nBefore starting, read your existing knowledge files:\n- cat $OPENCLAW_HOME/richard/knowledge/claw-deploy.md\n- cat $OPENCLAW_HOME/richard/knowledge/corners.md\n- cat $OPENCLAW_HOME/richard/knowledge/lauki-antonson.md\n- cat $OPENCLAW_HOME/richard/knowledge/boss-preferences.md\n- cat $OPENCLAW_HOME/richard/knowledge/team.md\nThis gives you context on what is already known before reading today's activity.\n\nPhase 2 \u2014 Read today's activity\nReview the full day's activity across all team channels (#general, #strategy, #engineering, #research, #bd, #content). Summarize what each agent accomplished today: Bighead (data/tech), Dinesh (research/signals), Jared (content strategy), Erlich (BD/partnerships), Gilfoyle (infrastructure/security), Monica (content creation). Identify the top 3 wins of the day (what moved the needle), open items/blockers that need attention tomorrow, and tomorrow's priorities by agent.\n\nPhase 3 \u2014 Post EOD summary to #general\nPost to #general: 'EOD Recap \u2014 here's what the team accomplished today and what we're focused on tomorrow' followed by:\n- \ud83d\udcca Today's Wins (top 3)\n- \u26a0\ufe0f Open Items/Blockers\n- \ud83c\udfaf Tomorrow's Priorities (by agent)\nKeep it concise but comprehensive; keep your strategic, decisive, team-focused Silicon Valley founder energy and make the team feel momentum.\n\nPhase 4 \u2014 Extract and write entities to knowledge/\nAfter posting the summary, extract significant entities from today's activity.\n- SIGNIFICANT = people with deals/partnerships, products being tracked, key competitors, important decisions\n- NOT significant = every HN commenter, random Twitter handle, one-off mentions\n- Quality over quantity: update 2-3 entities well rather than create 10 stubs\n\nFor each significant entity:\n1. Check whether it already exists in $OPENCLAW_HOME/richard/knowledge/\n2. If it exists: append a History entry with today's update and keep the file under 2000 chars\n3. If it is new: create a new entity file in $OPENCLAW_HOME/richard/knowledge/ using this exact format:\n   # Entity Name\n   **Last Updated**: YYYY-MM-DD\n   ## Summary\n   [1-2 sentences]\n   ## Status\n   [active/paused/archived]\n   ## Key Facts\n   - [bullet points]\n   ## Related\n   [[Backlink1]], [[Backlink2]]\n   ## History\n   ### YYYY-MM-DD\n   - [what happened today]\n\nUse [[Obsidian Backlinks]] when referencing related entities. Max 2000 chars per file; prune old History entries if needed. Only write to $OPENCLAW_HOME/richard/knowledge/ (never other agents' knowledge directories).\n\nPhase 5 \u2014 Post knowledge update to #ops\nAfter writing entity files, post a brief update to #ops:\n\u2705 **Richard** \u2014 EOD Knowledge Update\n\ud83d\udcdd Entities updated: [list entity names]\n\ud83d\udd17 New backlinks: [count]"
       },
       "delivery": {
         "mode": "announce",
@@ -502,6 +502,23 @@
       },
       "state": {
         "nextRunAtMs": 1772422200000
+      }
+    },
+    {
+      "id": "monica-twitter-auto-01",
+      "agentId": "monica",
+      "name": "Monica Twitter Poster \u2014 @CLIRichard",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run twitter_poster.py to auto-post to @CLIRichard. Execute: python3 $OPENCLAW_HOME/monica/scripts/twitter_poster.py. Use the CLIRICHARD_* env vars for Twitter auth. Generate 1 tweet per cycle using the content pillars in the script. Post immediately."
       }
     }
   ]
