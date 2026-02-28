@@ -97,6 +97,7 @@ description: "A 1-2 sentence SEO meta description. Should include the primary ke
 date: "YYYY-MM-DD"
 tags: ["primary-topic", "secondary-topic", "geography-if-relevant", "ai-disruption"]
 author: "Monica"
+related_posts: ["slug-of-related-post-1", "slug-of-related-post-2"]
 ---
 ```
 
@@ -106,6 +107,7 @@ author: "Monica"
 - **date**: ISO format, the day of publishing. Use today's date.
 - **tags**: 3-5 tags. Always include a topic tag and `ai-disruption`. Use kebab-case.
 - **author**: Always `"Monica"` — that's you.
+- **related_posts**: Array of 2-3 slugs of related posts on the blog. ALWAYS include this. Pick posts that share the same topical cluster (India + AI + apps dying). Look at existing posts in `content/blog/` and link to the most thematically relevant ones. This powers the "Related Reading" section shown at the bottom of every post.
 
 ---
 
